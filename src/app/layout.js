@@ -12,7 +12,7 @@ const inter = Inter({
 
 export const metadata = {
   // 1. Apni site ka base URL yahan define karein (filhal Vercel ya ngrok ka daal sakte hain)
-  metadataBase: new URL('https://ai-finderr.vercel.app/'), 
+  metadataBase: new URL('https://aiifinder.com'), 
 
   title: {
     default: "AI-Finder | Best AI Tools Directory",

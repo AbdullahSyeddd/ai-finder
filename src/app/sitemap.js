@@ -1,7 +1,7 @@
 // src/app/sitemap.js
 
 export default function sitemap() {
-  const baseUrl = 'https://ai-finderr.vercel.app/'; // Jab asli domain lein to yahan change karein
+  const baseUrl = 'https://aiifinder.com/';// Jab asli domain lein to yahan change karein
 
   return [
     {

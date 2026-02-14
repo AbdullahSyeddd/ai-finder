@@ -7,6 +7,6 @@ export default function robots() {
       allow: '/',
       disallow: '/private/', // Agar koi private page ho to yahan likhein
     },
-    sitemap: 'https://ai-finderr.vercel.app//sitemap.xml',
+    sitemap: 'https://aiifinder.com/sitemap.xml',
   }
 }
