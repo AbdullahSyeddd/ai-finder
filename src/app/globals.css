@@ -1,0 +1,5 @@
+@import "tailwindcss";
+/* Vercel Badge ko chupane ke liye */
+[data-nextjs-toast] {
+  display: none !important;
+}
