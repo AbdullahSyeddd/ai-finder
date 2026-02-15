@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // 1. Dev Indicators (Jo 'N' badge hatane ke liye lagaya tha)
+  // 1. Dev Indicators
   devIndicators: {
     buildActivity: false,
     appIsrStatus: false,
@@ -14,11 +14,12 @@ const nextConfig = {
         headers: [
           {
             key: 'X-Frame-Options',
-            value: 'DENY', // ✅ Ye add kiya (Hacking se bachane ke liye)
+            value: 'DENY',
           },
           {
             key: 'Content-Security-Policy',
-            value: "default-src 'self'; img-src 'self' https: data:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:;",
+            // 👇 Yahan maine change kiya hai: 'connect-src' add kiya hai taake Google se baat ho sake
+            value: "default-src 'self'; connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://www.googletagmanager.com; img-src 'self' https: data:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:;",
           },
           {
             key: 'Referrer-Policy',
