@@ -33,6 +33,9 @@ export default async function ToolPage({ params }) {
   }
 
   // 👇 DYNAMIC ALTERNATIVES LOGIC
+  // 1. Same category ke tools dhoondo
+  // 2. Current tool ko exclude karo (t.slug !== tool.slug)
+  // 3. Sirf pehle 4 uthao (.slice(0, 4))
   const relatedTools = toolsData
     .filter((t) => t.category === tool.category && t.slug !== tool.slug)
     .slice(0, 4);
@@ -186,39 +189,27 @@ export default async function ToolPage({ params }) {
                         </div>
                     </div>
 
-                    {/* 👇 DYNAMIC ALTERNATIVES WIDGET (With Logos, No Error) */}
+                    {/* 👇 DYNAMIC ALTERNATIVES WIDGET */}
                     <div className="bg-slate-900/50 border border-slate-800 rounded-2xl p-6 backdrop-blur-sm">
                         <h3 className="text-white font-bold mb-4">Alternatives</h3>
                         <div className="space-y-3">
                             {relatedTools.length > 0 ? (
-                                relatedTools.map((alt) => {
-                                    // Generate Real Logo URL
-                                    const altLogo = `https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=${alt.websiteUrl}&size=128`;
-                                    
-                                    return (
-                                        <Link 
-                                            key={alt.id}
-                                            href={`/tool/${alt.slug}`} 
-                                            className="flex items-center gap-3 p-3 rounded-xl bg-slate-800/50 hover:bg-slate-800 transition cursor-pointer group border border-transparent hover:border-indigo-500/30"
-                                        >
-                                            {/* Logo Box */}
-                                            <div className="w-10 h-10 rounded-lg bg-black/30 flex items-center justify-center shrink-0 p-1.5 border border-slate-700">
-                                                 <img 
-                                                    src={altLogo} 
-                                                    alt={alt.name} 
-                                                    className="w-full h-full object-contain"
-                                                    // ❌ ERROR REMOVED: onError handler removed because it crashes Server Components.
-                                                    // Google API will handle fallbacks automatically.
-                                                />
-                                            </div>
-                                            
-                                            <div className="overflow-hidden">
-                                                <div className="text-sm font-semibold text-white group-hover:text-indigo-400 transition truncate">{alt.name}</div>
-                                                <div className="text-xs text-slate-500 truncate">{alt.category}</div>
-                                            </div>
-                                        </Link>
-                                    );
-                                })
+                                relatedTools.map((alt) => (
+                                    <Link 
+                                        key={alt.id}
+                                        href={`/tool/${alt.slug}`} 
+                                        className="flex items-center gap-3 p-3 rounded-xl bg-slate-800/50 hover:bg-slate-800 transition cursor-pointer group"
+                                    >
+                                        <div className="w-10 h-10 rounded-lg bg-indigo-500/20 flex items-center justify-center text-indigo-400 font-bold shrink-0">
+                                            {/* Pehla letter utha raha hoon logo ke liye */}
+                                            {alt.name.charAt(0)}
+                                        </div>
+                                        <div>
+                                            <div className="text-sm font-semibold text-white group-hover:text-indigo-400 transition">{alt.name}</div>
+                                            <div className="text-xs text-slate-500">{alt.category}</div>
+                                        </div>
+                                    </Link>
+                                ))
                             ) : (
                                 <p className="text-slate-500 text-sm italic p-2">No similar tools found.</p>
                             )}
