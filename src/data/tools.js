@@ -33,8 +33,8 @@ export const toolsData = [
     seoTitle: "Claude 3 - AI Tool for Natural Conversations",
     seoDescription: "Claude 3 by Anthropic delivers human-like conversations and handles long-context AI tasks efficiently.",
     keywords: ["Claude AI", "AI chatbot", "Anthropic AI", "AI assistant"],
-    shortDescription: "Anthropic’s AI for natural, context-rich conversations.",
-    fullDescription: "Claude 3 is Anthropic’s next-generation AI model focused on natural conversation and context retention. It excels at understanding long prompts and producing coherent, insightful responses. Perfect for customer service, content creation, and collaborative AI interactions.\n\nThe AI prioritizes safety and clarity, making it a reliable assistant for professional and creative workflows. Its advanced memory and contextual understanding allow for smoother, more human-like exchanges than traditional chatbots.",
+    shortDescription: "Anthropic's AI for natural, context-rich conversations.",
+    fullDescription: "Claude 3 is Anthropic's next-generation AI model focused on natural conversation and context retention. It excels at understanding long prompts and producing coherent, insightful responses. Perfect for customer service, content creation, and collaborative AI interactions.\n\nThe AI prioritizes safety and clarity, making it a reliable assistant for professional and creative workflows. Its advanced memory and contextual understanding allow for smoother, more human-like exchanges than traditional chatbots.",
     category: "Writing",
     pricing: [
       { plan: "Free", cost: "$0", description: "Basic features" },
@@ -139,7 +139,7 @@ export const toolsData = [
     seoDescription: "Quillbot rewrites sentences and improves clarity, tone, and structure using advanced AI.",
     keywords: ["Quillbot AI", "paraphrasing tool", "rewrite text AI", "AI writing assistant"],
     shortDescription: "AI-powered paraphraser that rewrites and improves your text.",
-    fullDescription: "Quillbot is a versatile AI writing assistant designed to help you rewrite and paraphrase sentences with improved clarity and flow. It’s ideal for students, writers, and professionals who want to avoid plagiarism or refresh their text. Its AI understands context, making rewritten text natural and engaging.\n\nQuillbot also offers grammar enhancements, tone suggestions, and summarization options, making it more than a paraphrasing tool. Whether you’re editing essays or crafting social posts, Quillbot saves time while keeping your writing sharp.",
+    fullDescription: "Quillbot is a versatile AI writing assistant designed to help you rewrite and paraphrase sentences with improved clarity and flow. It's ideal for students, writers, and professionals who want to avoid plagiarism or refresh their text. Its AI understands context, making rewritten text natural and engaging.\n\nQuillbot also offers grammar enhancements, tone suggestions, and summarization options, making it more than a paraphrasing tool. Whether you're editing essays or crafting social posts, Quillbot saves time while keeping your writing sharp.",
     category: "Writing",
     pricing: [
       { plan: "Free", cost: "$0", description: "Basic paraphrasing" },
@@ -191,7 +191,7 @@ export const toolsData = [
     seoDescription: "Microsoft Bing Webmaster AI Tools help you improve SEO, analyze keywords, and optimize content for search visibility.",
     keywords: ["Bing Webmaster tools", "SEO AI tools", "keyword research AI", "site performance AI"],
     shortDescription: "AI-enhanced SEO and site performance tools from Bing Webmaster.",
-    fullDescription: "Bing Webmaster AI Tools provide AI-powered insights to help you analyze your website’s SEO, discover high-value keywords, and optimize content for better search rankings. Combined with performance metrics and indexing data, this suite makes site optimization easier and more strategic. It’s perfect for webmasters and marketers aiming to rank higher on Bing and Google.\n\nThe AI features include keyword suggestions, content gaps, and actionable recommendations to improve metadata, readability, and site structure. With real-time analytics and indexing tools, Bing Webmaster AI Tools give you a data-backed path to stronger search visibility.",
+    fullDescription: "Bing Webmaster AI Tools provide AI-powered insights to help you analyze your website's SEO, discover high-value keywords, and optimize content for better search rankings. Combined with performance metrics and indexing data, this suite makes site optimization easier and more strategic. It's perfect for webmasters and marketers aiming to rank higher on Bing and Google.\n\nThe AI features include keyword suggestions, content gaps, and actionable recommendations to improve metadata, readability, and site structure. With real-time analytics and indexing tools, Bing Webmaster AI Tools give you a data-backed path to stronger search visibility.",
     category: "Productivity",
     pricing: [
       { plan: "Free", cost: "$0", description: "Full suite at no cost" },
@@ -216,8 +216,8 @@ export const toolsData = [
     seoTitle: "Rytr - Affordable AI Writing Assistant",
     seoDescription: "Rytr creates content quickly with AI templates for blogs, emails, and posts.",
     keywords: ["Rytr AI", "affordable AI writer", "content generator", "AI templates"],
-    shortDescription: "Budget‑friendly AI for fast content.",
-    fullDescription: "Rytr is an affordable AI writing assistant that helps you generate quality content for blogs, emails, and social media in seconds. Its easy‑to‑use templates make writing faster and less stressful.\n\nPerfect for freelancers and small businesses, Rytr saves time while delivering engaging text tailored to your needs.",
+    shortDescription: "Budget-friendly AI for fast content.",
+    fullDescription: "Rytr is an affordable AI writing assistant that helps you generate quality content for blogs, emails, and social media in seconds. Its easy-to-use templates make writing faster and less stressful.\n\nPerfect for freelancers and small businesses, Rytr saves time while delivering engaging text tailored to your needs.",
     category: "Writing",
     pricing: [
       { plan: "Free", cost: "$0", description: "Limited generation" },
@@ -269,7 +269,7 @@ export const toolsData = [
     seoDescription: "Jenni AI assists academic writers with research, structure, and clear scholarly content.",
     keywords: ["Jenni AI", "academic writing assistant", "research AI", "essay writer"],
     shortDescription: "AI for academic writing and research papers.",
-    fullDescription: "Jenni AI helps students and researchers write stronger academic content with clear structure and accurate research guidance. Its AI assists with introductions, citations, and topic framing.\n\nThis tool reduces time spent on drafts and helps you polish complex academic writing with AI‑driven suggestions and references.",
+    fullDescription: "Jenni AI helps students and researchers write stronger academic content with clear structure and accurate research guidance. Its AI assists with introductions, citations, and topic framing.\n\nThis tool reduces time spent on drafts and helps you polish complex academic writing with AI-driven suggestions and references.",
     category: "Writing",
     pricing: [
       { plan: "Free", cost: "$0", description: "Basic academic help" },
@@ -294,7 +294,7 @@ export const toolsData = [
     seoTitle: "Google Gemini - AI Tool for Text, Code & Multimodal Tasks",
     seoDescription: "Google Gemini helps you generate, summarize, translate, and ideate across text, images, and code.",
     keywords: ["Google Gemini AI", "multimodal AI", "AI writing tool", "Google AI"],
-    shortDescription: "Google’s advanced AI for text, code, and multimodal tasks.",
+    shortDescription: "Google's advanced AI for text, code, and multimodal tasks.",
     fullDescription: "Google Gemini is a powerful AI model capable of supporting text generation, coding assistance, and multimodal tasks like image understanding. Its versatile capabilities help users across creative and technical workflows.\n\nWith strong language understanding and integration with Google tools, Gemini is ideal for professionals and creators who want AI to extend across writing, visuals, and problem solving.",
     category: "Writing",
     pricing: [
@@ -321,7 +321,7 @@ export const toolsData = [
     seoDescription: "Elicit automates literature review, summarizing research and finding key insights fast.",
     keywords: ["Elicit AI", "research assistant AI", "literature review tool", "AI for research"],
     shortDescription: "AI assistant that automates research and literature review.",
-    fullDescription: "Elicit uses AI to help researchers quickly find relevant papers, summarize findings, and extract key insights. It’s designed to automate the time‑consuming parts of literature reviews and academic research.\n\nResearchers, students, and professionals benefit from Elicit’s ability to surface high‑quality sources and organize insights with minimal effort, saving hours of manual search and reading.",
+    fullDescription: "Elicit uses AI to help researchers quickly find relevant papers, summarize findings, and extract key insights. It's designed to automate the time-consuming parts of literature reviews and academic research.\n\nResearchers, students, and professionals benefit from Elicit's ability to surface high-quality sources and organize insights with minimal effort, saving hours of manual search and reading.",
     category: "Writing",
     pricing: [
       { plan: "Free", cost: "$0", description: "Core research tools" },
@@ -347,7 +347,7 @@ export const toolsData = [
     seoDescription: "SciSpace simplifies scientific research by summarizing papers and explaining complex concepts.",
     keywords: ["SciSpace AI", "scientific summaries", "research simplifier", "AI science tool"],
     shortDescription: "Understand scientific papers with simple AI explanations.",
-    fullDescription: "SciSpace uses AI to break down complex scientific papers into easy‑to‑understand summaries. It’s perfect for students, researchers, and curious minds who want quick insights without wading through dense text.\n\nBy translating technical language into clear explanations, SciSpace saves time and makes science more accessible to everyone.",
+    fullDescription: "SciSpace uses AI to break down complex scientific papers into easy-to-understand summaries. It's perfect for students, researchers, and curious minds who want quick insights without wading through dense text.\n\nBy translating technical language into clear explanations, SciSpace saves time and makes science more accessible to everyone.",
     category: "Writing",
     pricing: [
       { plan: "Free", cost: "$0", description: "Basic summaries" },
@@ -404,7 +404,7 @@ export const toolsData = [
     seoDescription: "Midjourney generates stunning, hyper-realistic, and artistic images from simple text prompts.",
     keywords: ["Midjourney AI", "AI image generator", "artistic AI images", "text to image AI"],
     shortDescription: "Create hyper-realistic and artistic images from text.",
-    fullDescription: "Midjourney is a cutting-edge AI tool that transforms text prompts into visually stunning, hyper-realistic, and artistic images. It’s perfect for artists, designers, and creatives looking for inspiration or professional-grade visuals.\n\nWith advanced style controls and prompt guidance, Midjourney empowers users to experiment and produce unique images efficiently, making it a favorite among digital creators.",
+    fullDescription: "Midjourney is a cutting-edge AI tool that transforms text prompts into visually stunning, hyper-realistic, and artistic images. It's perfect for artists, designers, and creatives looking for inspiration or professional-grade visuals.\n\nWith advanced style controls and prompt guidance, Midjourney empowers users to experiment and produce unique images efficiently, making it a favorite among digital creators.",
     category: "Image Gen",
     pricing: [
       { plan: "Free", cost: "$0", description: "Trial access to AI features" },
@@ -430,7 +430,7 @@ export const toolsData = [
     seoDescription: "DALL·E 3 generates images directly from simple English prompts inside ChatGPT.",
     keywords: ["DALL·E 3 AI", "text to image AI", "OpenAI image generator", "AI art creation"],
     shortDescription: "Create images directly from text prompts.",
-    fullDescription: "DALL·E 3 is OpenAI’s powerful AI for generating images from simple text prompts. It allows users to create high-quality, creative visuals quickly and easily within ChatGPT.\n\nPerfect for designers, marketers, and content creators, DALL·E 3 produces versatile and imaginative images that can be used in projects, presentations, or digital content, enhancing productivity and visual creativity.",
+    fullDescription: "DALL·E 3 is OpenAI's powerful AI for generating images from simple text prompts. It allows users to create high-quality, creative visuals quickly and easily within ChatGPT.\n\nPerfect for designers, marketers, and content creators, DALL·E 3 produces versatile and imaginative images that can be used in projects, presentations, or digital content, enhancing productivity and visual creativity.",
     category: "Image Gen",
     pricing: [
       { plan: "Free", cost: "$0", description: "Limited generation credits" },
@@ -508,7 +508,7 @@ export const toolsData = [
     seoDescription: "Adobe Firefly uses AI to generate creative images, integrated with Photoshop and Adobe tools.",
     keywords: ["Adobe Firefly", "AI image generator", "Adobe Photoshop AI", "creative AI"],
     shortDescription: "Generative AI for creative image creation in Adobe apps.",
-    fullDescription: "Adobe Firefly is a generative AI tool that helps designers and creatives generate images, effects, and designs directly inside Adobe applications. It combines the power of AI with Adobe’s ecosystem for seamless creative workflows.\n\nArtists can explore variations, produce photorealistic or stylized images, and integrate AI-generated elements directly into their projects, enhancing productivity and creative possibilities.",
+    fullDescription: "Adobe Firefly is a generative AI tool that helps designers and creatives generate images, effects, and designs directly inside Adobe applications. It combines the power of AI with Adobe's ecosystem for seamless creative workflows.\n\nArtists can explore variations, produce photorealistic or stylized images, and integrate AI-generated elements directly into their projects, enhancing productivity and creative possibilities.",
     category: "Image Gen",
     pricing: [
       { plan: "Free", cost: "$0", description: "Limited features" },
@@ -586,7 +586,7 @@ export const toolsData = [
     seoDescription: "Clipdrop helps remove backgrounds, clean up images, and relight visuals using AI.",
     keywords: ["Clipdrop AI", "background remover AI", "image cleanup tool", "photo enhancement AI"],
     shortDescription: "AI cleanup for images and backgrounds.",
-    fullDescription: "Clipdrop uses AI to remove backgrounds, clean images, and relight visuals for professional results. It’s ideal for e-commerce, social media, and photography workflows.\n\nWith easy-to-use tools, users can enhance product photos, portraits, or graphics quickly, improving the quality and consistency of visual content without advanced editing skills.",
+    fullDescription: "Clipdrop uses AI to remove backgrounds, clean images, and relight visuals for professional results. It's ideal for e-commerce, social media, and photography workflows.\n\nWith easy-to-use tools, users can enhance product photos, portraits, or graphics quickly, improving the quality and consistency of visual content without advanced editing skills.",
     category: "Image Gen",
     pricing: [
       { plan: "Free", cost: "$0", description: "Basic editing features" },
@@ -638,7 +638,7 @@ export const toolsData = [
     seoDescription: "Photoroom creates professional product photos with AI backgrounds and editing tools.",
     keywords: ["Photoroom AI", "product photography AI", "AI background remover", "image editor AI"],
     shortDescription: "AI for professional product photos and backgrounds.",
-    fullDescription: "Photoroom allows users to produce professional product photography quickly using AI-generated backgrounds and enhancements. It’s designed for e-commerce sellers, marketers, and creators.\n\nUsers can automate background replacement, enhance lighting, and refine images for listings or campaigns, improving visual appeal and conversion rates.",
+    fullDescription: "Photoroom allows users to produce professional product photography quickly using AI-generated backgrounds and enhancements. It's designed for e-commerce sellers, marketers, and creators.\n\nUsers can automate background replacement, enhance lighting, and refine images for listings or campaigns, improving visual appeal and conversion rates.",
     category: "Image Gen",
     pricing: [
       { plan: "Free", cost: "$0", description: "Basic AI editing" },
@@ -747,7 +747,7 @@ export const toolsData = [
     seoDescription: "Turn text or images into stunning, realistic AI videos fast with Runway Gen-2.",
     keywords: ["Runway Gen-2 AI", "AI video generator", "text to video AI", "realistic AI videos"],
     shortDescription: "Transform text or images into realistic video clips.",
-    fullDescription: "Runway Gen-2 allows creators to convert text prompts or images into fully realistic video clips using advanced AI technology. It’s perfect for content creators, marketers, and filmmakers seeking fast, high-quality video outputs.\n\nWith intuitive controls and AI-powered scene generation, Runway Gen-2 accelerates video production, enabling users to experiment with styles, transitions, and cinematic effects effortlessly.",
+    fullDescription: "Runway Gen-2 allows creators to convert text prompts or images into fully realistic video clips using advanced AI technology. It's perfect for content creators, marketers, and filmmakers seeking fast, high-quality video outputs.\n\nWith intuitive controls and AI-powered scene generation, Runway Gen-2 accelerates video production, enabling users to experiment with styles, transitions, and cinematic effects effortlessly.",
     category: "Video",
     pricing: [
       { plan: "Free", cost: "$0", description: "Limited video generation" },
@@ -799,7 +799,7 @@ export const toolsData = [
     seoDescription: "Translate videos into multiple languages with AI lip-sync and speech accuracy using HeyGen.",
     keywords: ["HeyGen AI", "AI video translation", "lip sync AI", "multilingual AI videos"],
     shortDescription: "Translate videos into other languages with synced lip movements.",
-    fullDescription: "HeyGen allows creators to translate videos seamlessly into different languages while maintaining accurate lip-sync and audio quality. It’s ideal for global marketing, tutorials, and social media content.\n\nBy combining AI translation and lip-sync technology, HeyGen ensures videos are culturally adapted and visually consistent, reducing manual editing time significantly.",
+    fullDescription: "HeyGen allows creators to translate videos seamlessly into different languages while maintaining accurate lip-sync and audio quality. It's ideal for global marketing, tutorials, and social media content.\n\nBy combining AI translation and lip-sync technology, HeyGen ensures videos are culturally adapted and visually consistent, reducing manual editing time significantly.",
     category: "Video",
     pricing: [
       { plan: "Free", cost: "$0", description: "Basic translation features" },
@@ -825,7 +825,7 @@ export const toolsData = [
     seoDescription: "Edit video and audio by simply editing the text transcript with AI-powered Descript.",
     keywords: ["Descript AI", "AI video editor", "text-based video editing", "AI audio editor"],
     shortDescription: "Edit video and audio by editing the text transcript.",
-    fullDescription: "Descript revolutionizes video and audio editing by allowing users to edit media simply by modifying its transcript. It’s perfect for podcasters, content creators, and video editors.\n\nWith features like automatic transcription, screen recording, and AI overdub, Descript streamlines content creation and makes editing faster, more accurate, and accessible even for beginners.",
+    fullDescription: "Descript revolutionizes video and audio editing by allowing users to edit media simply by modifying its transcript. It's perfect for podcasters, content creators, and video editors.\n\nWith features like automatic transcription, screen recording, and AI overdub, Descript streamlines content creation and makes editing faster, more accurate, and accessible even for beginners.",
     category: "Video",
     pricing: [
       { plan: "Free", cost: "$0", description: "Basic editing and transcription" },
@@ -851,7 +851,7 @@ export const toolsData = [
     seoDescription: "Generate complete videos using AI with stock footage, voiceovers, and prompts easily with InVideo AI.",
     keywords: ["InVideo AI", "AI video generator", "text to video", "AI marketing videos"],
     shortDescription: "Create full videos with AI using prompts and stock footage.",
-    fullDescription: "InVideo AI enables users to generate complete videos from simple prompts, combining AI, stock footage, and voiceovers. It’s great for marketers, social media creators, and small businesses.\n\nBy automating video assembly, InVideo AI reduces production time, allowing users to create professional-quality videos quickly and consistently across multiple platforms.",
+    fullDescription: "InVideo AI enables users to generate complete videos from simple prompts, combining AI, stock footage, and voiceovers. It's great for marketers, social media creators, and small businesses.\n\nBy automating video assembly, InVideo AI reduces production time, allowing users to create professional-quality videos quickly and consistently across multiple platforms.",
     category: "Video",
     pricing: [
       { plan: "Free", cost: "$0", description: "Limited video exports" },
@@ -877,7 +877,7 @@ export const toolsData = [
     seoDescription: "Transform creative ideas into videos quickly with AI using Pika Art's platform.",
     keywords: ["Pika Art AI", "idea to video AI", "creative video generator", "AI video creation tool"],
     shortDescription: "Turn your creative ideas into videos instantly with AI.",
-    fullDescription: "Pika Art is an AI-powered platform that transforms creative ideas into fully realized videos. It’s designed for storytellers, educators, and content creators looking to visualize concepts fast.\n\nWith easy prompts, AI animation, and video generation tools, Pika Art enables efficient production, helping users bring their creative visions to life without complex software.",
+    fullDescription: "Pika Art is an AI-powered platform that transforms creative ideas into fully realized videos. It's designed for storytellers, educators, and content creators looking to visualize concepts fast.\n\nWith easy prompts, AI animation, and video generation tools, Pika Art enables efficient production, helping users bring their creative visions to life without complex software.",
     category: "Video",
     pricing: [
       { plan: "Free", cost: "$0", description: "Basic video generation" },
@@ -903,7 +903,7 @@ export const toolsData = [
     seoDescription: "Turn long videos into viral short clips automatically using AI with Opus Clip.",
     keywords: ["Opus Clip AI", "AI video shorts", "social media clip generator", "viral video AI"],
     shortDescription: "Automatically convert long videos into viral short clips.",
-    fullDescription: "Opus Clip uses AI to extract key moments from long videos and automatically generate short, engaging clips optimized for social media. It’s perfect for creators looking to boost reach and engagement.\n\nThe AI identifies highlights, trims content, and formats videos for various platforms, saving hours of manual editing while increasing content virality.",
+    fullDescription: "Opus Clip uses AI to extract key moments from long videos and automatically generate short, engaging clips optimized for social media. It's perfect for creators looking to boost reach and engagement.\n\nThe AI identifies highlights, trims content, and formats videos for various platforms, saving hours of manual editing while increasing content virality.",
     category: "Video",
     pricing: [
       { plan: "Free", cost: "$0", description: "Limited short clips generation" },
@@ -929,7 +929,7 @@ export const toolsData = [
     seoDescription: "Create lifelike talking avatars from still images with AI using D-ID.",
     keywords: ["D-ID AI", "talking avatar generator", "AI photo animation", "AI video avatars"],
     shortDescription: "Generate talking avatars from photos with AI.",
-    fullDescription: "D-ID allows users to animate still images into talking avatars using advanced AI technology. It’s ideal for education, marketing, and entertainment videos.\n\nThe platform supports voice integration and natural expressions, enabling creators to produce engaging and realistic video avatars effortlessly.",
+    fullDescription: "D-ID allows users to animate still images into talking avatars using advanced AI technology. It's ideal for education, marketing, and entertainment videos.\n\nThe platform supports voice integration and natural expressions, enabling creators to produce engaging and realistic video avatars effortlessly.",
     category: "Video",
     pricing: [
       { plan: "Free", cost: "$0", description: "Basic avatar creation" },
@@ -981,7 +981,7 @@ export const toolsData = [
     seoDescription: "Convert blog posts into engaging AI-generated videos for social media with Lumen5.",
     keywords: ["Lumen5 AI", "blog to video AI", "social media video AI", "AI content video"],
     shortDescription: "Turn blog content into engaging social media videos.",
-    fullDescription: "Lumen5 automates turning text content such as blog posts into engaging videos optimized for social media. It’s ideal for marketers, bloggers, and content creators.\n\nWith AI summarization, scene selection, and text animation, Lumen5 helps users produce professional-looking videos quickly without extensive video editing skills.",
+    fullDescription: "Lumen5 automates turning text content such as blog posts into engaging videos optimized for social media. It's ideal for marketers, bloggers, and content creators.\n\nWith AI summarization, scene selection, and text animation, Lumen5 helps users produce professional-looking videos quickly without extensive video editing skills.",
     category: "Video",
     pricing: [
       { plan: "Free", cost: "$0", description: "Basic video creation" },
@@ -1007,7 +1007,7 @@ export const toolsData = [
     seoDescription: "Generate realistic high-quality videos from text and images quickly with Luma Dream Machine.",
     keywords: ["Luma Dream Machine AI", "AI video generator", "text to video", "high-quality AI videos"],
     shortDescription: "Create realistic videos fast from text and images.",
-    fullDescription: "Luma Dream Machine uses AI to transform text prompts and images into high-quality, realistic videos. It’s designed for creators who need fast, professional video outputs.\n\nThe platform offers customizable styles, resolution options, and AI enhancements, enabling users to produce visually stunning videos efficiently for marketing, education, or entertainment purposes.",
+    fullDescription: "Luma Dream Machine uses AI to transform text prompts and images into high-quality, realistic videos. It's designed for creators who need fast, professional video outputs.\n\nThe platform offers customizable styles, resolution options, and AI enhancements, enabling users to produce visually stunning videos efficiently for marketing, education, or entertainment purposes.",
     category: "Video",
     pricing: [
       { plan: "Free", cost: "$0", description: "Basic video generation" },
@@ -1033,7 +1033,7 @@ export const toolsData = [
     seoDescription: "Automatically add subtitles, fix eye contact, and enhance videos using AI with Captions.ai.",
     keywords: ["Captions AI", "AI subtitles", "video enhancer AI", "automatic captions AI"],
     shortDescription: "AI-powered subtitles and video enhancements.",
-    fullDescription: "Captions.ai uses AI to automatically generate subtitles, correct eye contact, and enhance video quality. It’s ideal for content creators, educators, and marketers.\n\nBy automating transcription, syncing, and visual improvements, Captions.ai saves time, improves accessibility, and ensures professional-looking video content effortlessly.",
+    fullDescription: "Captions.ai uses AI to automatically generate subtitles, correct eye contact, and enhance video quality. It's ideal for content creators, educators, and marketers.\n\nBy automating transcription, syncing, and visual improvements, Captions.ai saves time, improves accessibility, and ensures professional-looking video content effortlessly.",
     category: "Video",
     pricing: [
       { plan: "Free", cost: "$0", description: "Basic subtitle generation" },
@@ -1064,7 +1064,7 @@ export const toolsData = [
     seoDescription: "Boost coding productivity with GitHub Copilot, your AI assistant suggesting code in real-time.",
     keywords: ["GitHub Copilot AI", "AI coding assistant", "code autocomplete AI", "developer productivity AI"],
     shortDescription: "AI pair programmer that suggests code as you type.",
-    fullDescription: "GitHub Copilot integrates directly into your IDE to provide intelligent code suggestions and completions in real-time. It’s perfect for developers looking to speed up coding and reduce repetitive tasks.\n\nLeveraging OpenAI’s models, Copilot supports multiple languages and frameworks, enabling developers to focus on logic and architecture while the AI handles boilerplate code efficiently.",
+    fullDescription: "GitHub Copilot integrates directly into your IDE to provide intelligent code suggestions and completions in real-time. It's perfect for developers looking to speed up coding and reduce repetitive tasks.\n\nLeveraging OpenAI's models, Copilot supports multiple languages and frameworks, enabling developers to focus on logic and architecture while the AI handles boilerplate code efficiently.",
     category: "Coding",
     pricing: [
       { plan: "Free", cost: "$0", description: "Trial limited suggestions" },
@@ -1116,7 +1116,7 @@ export const toolsData = [
     seoDescription: "Code, debug, and deploy apps entirely in the browser with Replit AI's intelligent tools.",
     keywords: ["Replit AI", "online coding AI", "cloud IDE AI", "AI programming platform"],
     shortDescription: "Code, debug, and deploy apps entirely in the browser.",
-    fullDescription: "Replit AI provides a cloud-based IDE where developers can code, debug, and deploy applications without local setup. It’s ideal for learning, prototyping, or building production-ready apps.\n\nIntegrated AI tools assist with code completion, debugging, and optimization, making the development process smoother and more efficient for individuals and teams alike.",
+    fullDescription: "Replit AI provides a cloud-based IDE where developers can code, debug, and deploy applications without local setup. It's ideal for learning, prototyping, or building production-ready apps.\n\nIntegrated AI tools assist with code completion, debugging, and optimization, making the development process smoother and more efficient for individuals and teams alike.",
     category: "Coding",
     pricing: [
       { plan: "Free", cost: "$0", description: "Basic AI coding support" },
@@ -1142,7 +1142,7 @@ export const toolsData = [
     seoDescription: "Code faster and smarter with Cursor, an IDE built for AI-powered development.",
     keywords: ["Cursor AI", "GPT-4 coding assistant", "AI IDE", "AI code completion"],
     shortDescription: "An IDE built for coding with AI, powered by GPT-4.",
-    fullDescription: "Cursor is a next-gen IDE leveraging GPT-4 to provide context-aware code suggestions, refactoring, and AI-assisted debugging. It’s designed to make coding faster and more intuitive.\n\nDevelopers can seamlessly integrate Cursor into their workflow to reduce repetitive tasks, catch errors early, and improve code quality across multiple languages.",
+    fullDescription: "Cursor is a next-gen IDE leveraging GPT-4 to provide context-aware code suggestions, refactoring, and AI-assisted debugging. It's designed to make coding faster and more intuitive.\n\nDevelopers can seamlessly integrate Cursor into their workflow to reduce repetitive tasks, catch errors early, and improve code quality across multiple languages.",
     category: "Coding",
     pricing: [
       { plan: "Free", cost: "$0", description: "Basic AI coding assistance" },
@@ -1219,7 +1219,7 @@ export const toolsData = [
     seoDescription: "Search the web and get coding solutions instantly with Blackbox AI assistant.",
     keywords: ["Blackbox AI", "AI coding assistant", "web search coding AI", "developer AI tool"],
     shortDescription: "AI coding assistant that can search the web for solutions.",
-    fullDescription: "Blackbox AI is a powerful coding assistant that not only provides code suggestions but can also search online for relevant solutions, examples, and documentation. It’s perfect for developers seeking quick answers while coding.\n\nWith real-time AI suggestions and integrated search, Blackbox AI streamlines development, reduces debugging time, and helps developers learn best practices efficiently.",
+    fullDescription: "Blackbox AI is a powerful coding assistant that not only provides code suggestions but can also search online for relevant solutions, examples, and documentation. It's perfect for developers seeking quick answers while coding.\n\nWith real-time AI suggestions and integrated search, Blackbox AI streamlines development, reduces debugging time, and helps developers learn best practices efficiently.",
     category: "Coding",
     pricing: [
       { plan: "Free", cost: "$0", description: "Basic AI assistance" },
@@ -1296,7 +1296,7 @@ export const toolsData = [
     seoDescription: "Collaborate, share, and deploy machine learning models easily with Hugging Face AI platform.",
     keywords: ["Hugging Face AI", "machine learning community", "AI models sharing", "developer AI tools"],
     shortDescription: "The platform where the machine learning community collaborates.",
-    fullDescription: "Hugging Face provides a collaborative environment for developers and researchers to share, deploy, and experiment with machine learning models. It’s ideal for AI enthusiasts and professionals.\n\nWith pre-trained models, datasets, and community support, Hugging Face accelerates AI development and research, making advanced AI accessible to everyone.",
+    fullDescription: "Hugging Face provides a collaborative environment for developers and researchers to share, deploy, and experiment with machine learning models. It's ideal for AI enthusiasts and professionals.\n\nWith pre-trained models, datasets, and community support, Hugging Face accelerates AI development and research, making advanced AI accessible to everyone.",
     category: "Coding",
     pricing: [
       { plan: "Free", cost: "$0", description: "Access to models and datasets" },
@@ -1322,7 +1322,7 @@ export const toolsData = [
     seoDescription: "Generate React and Tailwind UI code instantly by describing interfaces with v0.dev AI.",
     keywords: ["v0.dev AI", "UI code generator AI", "React Tailwind AI", "no-code AI coding"],
     shortDescription: "Generate UI code (React/Tailwind) just by describing the interface.",
-    fullDescription: "v0.dev lets developers quickly generate clean React and Tailwind UI code by simply describing the interface in natural language. It’s perfect for designers and developers who want to speed up front-end development.\n\nThe AI produces production-ready code, reducing manual coding errors and accelerating the UI development workflow efficiently.",
+    fullDescription: "v0.dev lets developers quickly generate clean React and Tailwind UI code by simply describing the interface in natural language. It's perfect for designers and developers who want to speed up front-end development.\n\nThe AI produces production-ready code, reducing manual coding errors and accelerating the UI development workflow efficiently.",
     category: "Coding",
     pricing: [
       { plan: "Free", cost: "$0", description: "Basic UI generation" },
@@ -1348,7 +1348,7 @@ export const toolsData = [
     seoDescription: "Get coding answers faster with Phind, the intelligent AI search engine for developers.",
     keywords: ["Phind AI", "developer search engine", "AI coding help", "programming questions AI"],
     shortDescription: "Intelligent search engine optimized for developers and coding questions.",
-    fullDescription: "Phind is an AI-powered search engine tailored for developers, providing precise coding answers, examples, and documentation links. It’s ideal for quickly solving coding problems and learning best practices.\n\nWith Phind, developers can search smarter, reduce debugging time, and find reliable coding solutions efficiently, all powered by AI understanding of programming queries.",
+    fullDescription: "Phind is an AI-powered search engine tailored for developers, providing precise coding answers, examples, and documentation links. It's ideal for quickly solving coding problems and learning best practices.\n\nWith Phind, developers can search smarter, reduce debugging time, and find reliable coding solutions efficiently, all powered by AI understanding of programming queries.",
     category: "Coding",
     pricing: [
       { plan: "Free", cost: "$0", description: "Full AI search access" }
@@ -1373,7 +1373,7 @@ export const toolsData = [
     seoDescription: "Build full-stack web apps instantly by chatting with AI using Lovable.",
     keywords: ["Lovable AI", "AI web app builder", "chat to code AI", "full-stack AI development"],
     shortDescription: "Build full-stack web apps just by chatting with AI.",
-    fullDescription: "Lovable lets users create full-stack web applications by simply interacting with an AI chatbot. It’s perfect for entrepreneurs and developers who want to prototype and deploy apps fast.\n\nThe AI handles backend, frontend, and database integration, making it easy to produce functional web apps quickly without deep coding knowledge, reducing time-to-market significantly.",
+    fullDescription: "Lovable lets users create full-stack web applications by simply interacting with an AI chatbot. It's perfect for entrepreneurs and developers who want to prototype and deploy apps fast.\n\nThe AI handles backend, frontend, and database integration, making it easy to produce functional web apps quickly without deep coding knowledge, reducing time-to-market significantly.",
     category: "Coding",
     pricing: [
       { plan: "Free", cost: "$0", description: "Trial with limited app generation" },
@@ -1404,7 +1404,7 @@ export const toolsData = [
     seoDescription: "Create human-like voiceovers with Murf.ai using AI, perfect for videos, podcasts, and presentations.",
     keywords: ["Murf AI voice", "AI voice generator", "text to speech AI", "realistic voiceovers"],
     shortDescription: "Convert text into realistic human-sounding voiceovers.",
-    fullDescription: "Murf.ai lets creators generate natural-sounding voiceovers from text effortlessly. It’s ideal for marketing, educational content, and video narration.\n\nWith multiple voice styles, languages, and tonal adjustments, Murf.ai provides high-quality audio that enhances content engagement and reduces the need for professional voice actors.",
+    fullDescription: "Murf.ai lets creators generate natural-sounding voiceovers from text effortlessly. It's ideal for marketing, educational content, and video narration.\n\nWith multiple voice styles, languages, and tonal adjustments, Murf.ai provides high-quality audio that enhances content engagement and reduces the need for professional voice actors.",
     category: "Audio",
     pricing: [
       { plan: "Free", cost: "$0", description: "Basic voice generation" },
@@ -1456,7 +1456,7 @@ export const toolsData = [
     seoDescription: "Compose complete songs including lyrics and vocals from text prompts using Suno AI music generator.",
     keywords: ["Suno AI music", "AI song generator", "AI lyrics creator", "text to music AI"],
     shortDescription: "Create full songs with lyrics and vocals from a text prompt.",
-    fullDescription: "Suno AI lets musicians and creators generate entire songs including melody, lyrics, and vocal performance from simple text prompts. It reduces production time and sparks creativity.\n\nWhether you’re producing background tracks, jingles, or full songs, Suno AI provides customizable styles and genres, making it a versatile tool for content creators and musicians.",
+    fullDescription: "Suno AI lets musicians and creators generate entire songs including melody, lyrics, and vocal performance from simple text prompts. It reduces production time and sparks creativity.\n\nWhether you're producing background tracks, jingles, or full songs, Suno AI provides customizable styles and genres, making it a versatile tool for content creators and musicians.",
     category: "Audio",
     pricing: [
       { plan: "Free", cost: "$0", description: "Limited song generation" },
@@ -1530,7 +1530,7 @@ export const toolsData = [
     name: "Lalal.ai",
     slug: "lalal-ai",
     seoTitle: "Lalal.ai - AI Vocal & Instrument Separation",
-    seoDescription: "Extract vocals and instruments from any audio track with Lalal.ai’s advanced AI separation technology.",
+    seoDescription: "Extract vocals and instruments from any audio track with Lalal.ai's advanced AI separation technology.",
     keywords: ["Lalal AI", "audio separation AI", "vocal remover AI", "instrument isolation AI"],
     shortDescription: "Extract vocals and instruments from any audio track.",
     fullDescription: "Lalal.ai allows musicians, producers, and content creators to isolate vocals or instruments from any audio track using AI-powered separation. This tool saves hours in audio editing and remixing.\n\nWith fast processing and high accuracy, Lalal.ai is perfect for remixes, karaoke, and professional music production, giving users complete control over individual audio elements.",
@@ -1584,7 +1584,7 @@ export const toolsData = [
     seoDescription: "Enhance recordings and remove background noise with Adobe Podcast AI tools.",
     keywords: ["Adobe Podcast AI", "speech enhancement AI", "noise removal AI", "AI audio tool"],
     shortDescription: "Enhance speech and remove background noise from recordings.",
-    fullDescription: "Adobe Podcast uses AI to enhance recorded speech and eliminate background noise. It provides clear, professional audio for podcasts, voiceovers, and online content.\n\nWith intuitive controls and Adobe’s audio processing tech, creators can produce high-quality audio without extensive editing experience.",
+    fullDescription: "Adobe Podcast uses AI to enhance recorded speech and eliminate background noise. It provides clear, professional audio for podcasts, voiceovers, and online content.\n\nWith intuitive controls and Adobe's audio processing tech, creators can produce high-quality audio without extensive editing experience.",
     category: "Audio",
     pricing: [
       { plan: "Free", cost: "$0", description: "Basic enhancement tools" },
@@ -1610,7 +1610,7 @@ export const toolsData = [
     seoDescription: "Create royalty-free background music for videos instantly using Soundraw AI.",
     keywords: ["Soundraw AI", "AI music generator", "royalty-free background music", "video music AI"],
     shortDescription: "Generate royalty-free background music customized for your videos.",
-    fullDescription: "Soundraw enables video creators to produce unique, royalty-free music tracks quickly using AI. Customize genre, tempo, and mood to perfectly match your video content.\n\nIt’s ideal for YouTubers, marketers, and content creators looking for hassle-free, high-quality music that enhances engagement without licensing concerns.",
+    fullDescription: "Soundraw enables video creators to produce unique, royalty-free music tracks quickly using AI. Customize genre, tempo, and mood to perfectly match your video content.\n\nIt's ideal for YouTubers, marketers, and content creators looking for hassle-free, high-quality music that enhances engagement without licensing concerns.",
     category: "Audio",
     pricing: [
       { plan: "Freemium", cost: "$0", description: "Limited music generation" },
@@ -1633,7 +1633,7 @@ export const toolsData = [
     name: "AudioCraft",
     slug: "audiocraft",
     seoTitle: "AudioCraft - Meta AI for Realistic Audio Generation",
-    seoDescription: "Generate high-quality, realistic audio using Meta’s open-source AI AudioCraft platform.",
+    seoDescription: "Generate high-quality, realistic audio using Meta's open-source AI AudioCraft platform.",
     keywords: ["AudioCraft AI", "Meta AI audio", "realistic audio AI", "AI sound generation"],
     shortDescription: "Meta's open-source AI for generating high-quality realistic audio.",
     fullDescription: "AudioCraft by Meta offers advanced AI tools for generating realistic audio tracks from text and other inputs. Ideal for developers, creators, and researchers looking to experiment with sound synthesis.\n\nIts open-source framework allows flexibility in generating, customizing, and integrating AI-generated audio into various applications, from music production to multimedia projects.",
@@ -2060,7 +2060,7 @@ export const toolsData = [
     seoDescription: "Create stunning presentations quickly with Beautiful.ai, the AI-powered slide design tool.",
     keywords: ["Beautiful AI", "AI presentations", "slide design AI", "presentation builder AI"],
     shortDescription: "Presentation software that designs slides for you.",
-    fullDescription: "Beautiful.ai uses AI to automatically design professional-looking slides and presentations. Users can focus on content while the AI ensures visual consistency and style.\n\nIt’s perfect for teams, educators, and business professionals who want high-quality presentations without spending hours on design, enhancing productivity and impact.",
+    fullDescription: "Beautiful.ai uses AI to automatically design professional-looking slides and presentations. Users can focus on content while the AI ensures visual consistency and style.\n\nIt's perfect for teams, educators, and business professionals who want high-quality presentations without spending hours on design, enhancing productivity and impact.",
     category: "Productivity",
     pricing: [
       { plan: "Pro", cost: "$12/mo", description: "Full AI slide design features" },
@@ -2678,7 +2678,7 @@ export const toolsData = [
     seoDescription: "Sing like Freddie Mercury and let AI rate your voice pitch, tone, and performance using FreddieMeter.",
     keywords: ["FreddieMeter AI", "sing like Freddie Mercury", "AI singing rating", "voice performance AI"],
     shortDescription: "Sing like Freddie Mercury and let AI rate your voice.",
-    fullDescription: "FreddieMeter uses AI to analyze your singing and rate it against Freddie Mercury's legendary vocals. Singers and music lovers can challenge themselves and see how close they get to the iconic Queen frontman’s pitch and style.",
+    fullDescription: "FreddieMeter uses AI to analyze your singing and rate it against Freddie Mercury's legendary vocals. Singers and music lovers can challenge themselves and see how close they get to the iconic Queen frontman's pitch and style.",
     category: "Fun",
     pricing: [
       { plan: "Free", cost: "$0", description: "Basic singing analysis" }
