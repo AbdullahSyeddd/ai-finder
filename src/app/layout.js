@@ -13,17 +13,40 @@ const inter = Inter({
 });
 
 export const metadata = {
-  metadataBase: new URL('https://aiifinder.com'), 
+  metadataBase: new URL('https://aiifinder.com'),
+
   title: {
-    default: "AI-Finder | The Ultimate AI Tools Directory",
-    template: "%s | AI-Finder"
+    default: "AI Finder | Best AI Tools Directory (2026)",
+    template: "%s | AI Finder",
   },
-  description: "Discover, compare, and build your perfect AI stack. A curated directory of 100+ AI tools updated daily.",
+
+  description:
+    "AI Finder is the ultimate AI tools directory to discover, compare, and choose the best AI software for writing, image generation, coding, marketing, productivity, automation, and business growth.",
+
+  applicationName: "AI Finder",
+
   alternates: {
-    canonical: './',
+    canonical: "./",
   },
+
+  openGraph: {
+    title: "AI Finder | Best AI Tools Directory (2026)",
+    description:
+      "Discover and compare 100+ AI tools for writing, coding, image generation, productivity, and automation. Updated rankings and detailed comparisons on AI Finder.",
+    url: "https://aiifinder.com",
+    siteName: "AI Finder",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "AI Finder | Discover the Best AI Tools (2026)",
+    description:
+      "Explore top AI tools for writing, coding, marketing, productivity, and automation. Compare features, pricing, and reviews on AI Finder.",
+  },
+
   verification: {
-    google: 'stHlXSSxczJ6p8U6fUq-Uw0OqNCwtSXW9iXTR0fKOx4',
+    google: "stHlXSSxczJ6p8U6fUq-Uw0OqNCwtSXW9iXTR0fKOx4",
   },
 };
 

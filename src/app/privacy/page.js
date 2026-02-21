@@ -2,8 +2,8 @@
 import React from 'react';
 
 export const metadata = {
-  title: "Privacy Policy | AI-Finder", 
-  description: "AI-Finder ensures your privacy by conducting secure browsing. Your confidential data is encrypted and never accessible with any individual.",
+  title: "Privacy Policy | AI Finder", 
+  description: "Read the Privacy Policy of AI Finder to understand how we protect user data, ensure secure browsing, and maintain transparency.",
 };
 
 const ShieldIcon = () => (

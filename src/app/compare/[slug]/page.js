@@ -14,8 +14,8 @@ export async function generateMetadata({ params }) {
   if (!tool1 || !tool2) return { title: "Tools Not Found" };
 
   return {
-    title: `${tool1.name} vs ${tool2.name} (2026 Comparison) - Which is better?`,
-    description: `Comprehensive comparison between ${tool1.name} and ${tool2.name}. Compare features, pricing, pros, cons, and find out which AI tool is best for your needs.`,
+    title: `${tool1.name} vs ${tool2.name} (2026 Comparison) | Features, Pricing & Verdict`,
+    description: `Compare ${tool1.name} vs ${tool2.name} side-by-side. See features, pricing, advantages, disadvantages, and decide which AI tool fits your needs.`,
   };
 }
 

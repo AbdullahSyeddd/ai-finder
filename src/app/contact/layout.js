@@ -1,8 +1,8 @@
 // src/app/contact/layout.js
 
 export const metadata = {
-  title: "Contact Us | AI-Finder",
-  description: "Get in touch with the AI-Finder team for queries, suggestions, or support.",
+  title: "Contact AI Finder | Support & Partnerships",
+  description: "Contact AI Finder for support, business inquiries, tool submissions, or partnership opportunities.",
 };
 
 export default function ContactLayout({ children }) {

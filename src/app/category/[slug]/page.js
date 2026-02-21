@@ -7,8 +7,8 @@ export async function generateMetadata({ params }) {
   const categoryName = slug.charAt(0).toUpperCase() + slug.slice(1);
 
   return {
-    title: `Best ${categoryName} AI Tools (2026) - Top Rated & Reviews`,
-    description: `Explore the highest rated ${categoryName} AI tools. Compare features, pricing, and find the perfect AI solution for your workflow.`,
+    title: `Best ${categoryName} AI Tools (2026) | Top Rated Software & Reviews`,
+    description: `Discover the best ${categoryName} AI tools. Compare features, pricing plans, pros and cons, and find the right AI software for your business or workflow.`,
   };
 }
 

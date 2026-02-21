@@ -1,7 +1,7 @@
 // src/app/about/layout.js
 export const metadata = {
-  title: "About Us | AI-Finder",
-  description: "AI Finder is a reliable list of the best AI tools. It sorts and reviews the best AI software for business growth, marketing, efficiency, and coding.",
+  title: "About AI Finder | Trusted AI Tools Directory",
+  description: "Learn how AI Finder curates, reviews, and ranks the best AI tools for startups, creators, developers, and businesses worldwide.",
 };
 
 export default function AboutLayout({ children }) {
