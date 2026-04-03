@@ -12,6 +12,10 @@ const Icons = {
   Image: () => <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>,
   Video: () => <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>,
   Productivity: () => <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>,
+  Diagram: () => <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><rect width="6" height="6" x="9" y="3" rx="1" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/><rect width="6" height="6" x="3" y="15" rx="1" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/><rect width="6" height="6" x="15" y="15" rx="1" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M12 9v3m0 0H6v3m6-3h6v3" /></svg>,
+  Design: () => <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" /></svg>,
+  Education: () => <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M12 14l9-5-9-5-9 5 9 5zm0 0v7m0-7l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" /></svg>,
+  Support: () => <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" /></svg>,
 };
 
 export default function ClientHome() {
@@ -42,12 +46,16 @@ export default function ClientHome() {
   const featuredCategories = [
     { name: "Writing", slug: "writing", icon: <Icons.Writing /> },
     { name: "Coding", slug: "coding", icon: <Icons.Coding /> },
-    { name: "Image Gen", slug: "image gen", icon: <Icons.Image /> },
+    { name: "Image Gen", slug: "image-gen", icon: <Icons.Image /> },
     { name: "Video", slug: "video", icon: <Icons.Video /> },
     { name: "Productivity", slug: "productivity", icon: <Icons.Productivity /> },
+    { name: "Diagrams & Flowcharts", slug: "diagrams-flowcharts", icon: <Icons.Diagram /> },
+    { name: "Design & UI/UX", slug: "design-ui-ux", icon: <Icons.Design /> },
+    { name: "Education & Learning", slug: "education-learning", icon: <Icons.Education /> },
+    { name: "Customer Support & Chatbots", slug: "customer-support-chatbots", icon: <Icons.Support /> }
   ];
 
-  const categories = ["All", "Writing", "Image Gen", "Video", "Audio", "Marketing", "Coding", "Productivity", "3D", "Fun"];
+  const categories = ["All", "Writing", "Image Gen", "Video", "Audio", "Marketing", "Coding", "Productivity", "3D", "Fun", "Diagrams & Flowcharts","Design & UI/UX", "Education & Learning", "Customer Support & Chatbots"];
 
   const getPriceLabel = (pricing) => {
     if (!pricing) return "Free";
@@ -125,7 +133,8 @@ export default function ClientHome() {
           {featuredCategories.map((cat) => (
             <Link 
               key={cat.slug} 
-              href={`/category/${cat.slug.replace(" ", "-")}`}
+              href={`/category/${cat.slug}`}
+
               className="group flex flex-col items-center justify-center py-5 px-4 rounded-xl bg-white/[0.02] border border-white/5 backdrop-blur-sm hover:bg-white/[0.05] hover:border-white/20 transition-all duration-500 ease-out"
             >
               <div className="text-gray-500 group-hover:text-white transition-colors duration-300 scale-90 group-hover:scale-100 mb-2">

@@ -2,6 +2,10 @@ import { toolsData } from "@/data/tools";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 
+const generateSlug = (text) => {
+  return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+};
+
 export async function generateMetadata({ params }) {
   const { slug } = await params; 
   const tool = toolsData.find((t) => t.slug === slug);
@@ -74,7 +78,7 @@ export default async function ToolPage({ params }) {
         <nav className="flex items-center text-sm text-slate-500 mb-8 font-medium">
             <Link href="/" className="hover:text-indigo-400 transition-colors">Home</Link> 
             <span className="mx-3 text-slate-700">/</span>
-            <Link href={`/category/${tool.category.toLowerCase()}`} className="hover:text-indigo-400 transition-colors capitalize">{tool.category}</Link>
+            <Link href={`/category/${generateSlug(tool.category)}`} className="hover:text-indigo-400 transition-colors capitalize">{tool.category}</Link>
             <span className="mx-3 text-slate-700">/</span>
             <span className="text-slate-200">{tool.name}</span>
         </nav>

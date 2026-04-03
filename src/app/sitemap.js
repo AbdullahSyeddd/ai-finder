@@ -1,6 +1,11 @@
 // src/app/sitemap.js
 import { toolsData } from "@/data/tools";
 
+// ✅ ADDED: Same clean slug logic to ensure your sitemap URLs exactly match your live site
+const generateSlug = (text) => {
+  return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+};
+
 export default function sitemap() {
   const baseUrl = 'https://aiifinder.com';
 
@@ -29,7 +34,8 @@ export default function sitemap() {
   // 3. DYNAMIC CATEGORY PAGES
   const uniqueCategories = [...new Set(toolsData.map((tool) => tool.category))];
   const categoryPages = uniqueCategories.map((category) => {
-    const categorySlug = category.toLowerCase().replace(/\s+/g, '-'); 
+    // ✅ UPDATED: Used generateSlug for flawless URL generation
+    const categorySlug = generateSlug(category); 
     return {
       url: `${baseUrl}/category/${categorySlug}`,
       lastModified: new Date(),
@@ -38,7 +44,7 @@ export default function sitemap() {
     };
   });
 
-  // 4. DYNAMIC TOOLS LOOP (106 tools)
+  // 4. DYNAMIC TOOLS LOOP (All tools automatically included)
   const toolPages = toolsData.map((tool) => ({
     url: `${baseUrl}/tool/${tool.slug}`,
     lastModified: new Date(),

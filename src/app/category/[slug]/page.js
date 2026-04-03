@@ -2,9 +2,17 @@ import { toolsData } from "@/data/tools";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+// ✅ ADDED: Ye chota sa function & aur extra spaces ko clean slug mein convert karega
+const generateSlug = (text) => {
+  return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+};
+
 export async function generateMetadata({ params }) {
   const { slug } = await params;
-  const categoryName = slug.charAt(0).toUpperCase() + slug.slice(1);
+  
+  // ✅ ADDED: Perfect SEO name nikalne ke liye (e.g., "Design & UX" instead of "design-ux")
+  const toolMatch = toolsData.find((t) => generateSlug(t.category) === slug.toLowerCase());
+  const categoryName = toolMatch ? toolMatch.category : slug.charAt(0).toUpperCase() + slug.slice(1);
 
   return {
     title: `Best ${categoryName} AI Tools (2026) | Top Rated Software & Reviews`,
@@ -15,8 +23,9 @@ export async function generateMetadata({ params }) {
 export default async function CategoryPage({ params }) {
   const { slug } = await params;
 
-    const filteredTools = toolsData.filter(
-    (t) => t.category.toLowerCase().replace(/\s+/g, '-') === slug.toLowerCase()
+  // ✅ UPDATED: Purani replace logic ki jagah humara clean generateSlug function lagaya hai
+  const filteredTools = toolsData.filter(
+    (t) => generateSlug(t.category) === slug.toLowerCase()
   );
 
   if (filteredTools.length === 0) return notFound();

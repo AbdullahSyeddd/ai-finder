@@ -2706,4 +2706,767 @@ export const toolsData = [
     websiteUrl: "https://grok.x.ai",
     rating: 4.5
   },
+
+
+  // ==============================================
+  // 📊 DIAGRAMS & FLOWCHARTS (New Category)
+  // ==============================================
+  {
+    id: "mermaid-live",
+    name: "Mermaid Live Editor",
+    slug: "mermaid-live-editor",
+    seoTitle: "Mermaid Live Editor - Create Diagrams from Text with AI",
+    seoDescription: "Instantly generate flowcharts, sequence diagrams, and Gantt charts using Markdown-style text with Mermaid Live Editor.",
+    keywords: ["Mermaid Live Editor", "text to diagram AI", "code to flowchart", "Mermaid JS editor", "AI architecture diagrams"],
+    shortDescription: "Create complex diagrams and flowcharts using simple text.",
+    fullDescription: "Mermaid Live Editor allows developers and planners to generate complex diagrams, flowcharts, and mind maps using simple Markdown-like syntax. It is an incredibly fast way to visualize data and system architectures without manual drawing.\n\nIdeal for documentation and coding projects, it supports real-time rendering, making it a must-have tool for software engineers and project managers.",
+    category: "Diagrams & Flowcharts",
+    pricing: [
+      { plan: "Free", cost: "$0", description: "Completely open-source and free to use" }
+    ],
+    pros: [
+      "No manual drawing required",
+      "Perfect for developer documentation",
+      "Supports various diagram types"
+    ],
+    cons: [
+      "Requires learning Mermaid syntax",
+      "Not ideal for freehand drawing"
+    ],
+    websiteUrl: "https://mermaid.live",
+    rating: 4.7
+  },
+  {
+    id: "drawio",
+    name: "Draw.io",
+    slug: "drawio",
+    seoTitle: "Draw.io - Free Online Diagram Software & Flowchart Maker",
+    seoDescription: "Create flowcharts, network diagrams, and UML designs easily with Draw.io. The ultimate free tool for visual planning and team collaboration.",
+    keywords: ["Draw.io", "free diagram tool", "flowchart maker", "UML diagram online", "diagrams.net", "visual architecture"],
+    shortDescription: "Versatile online tool for creating flowcharts and diagrams.",
+    fullDescription: "Draw.io (now diagrams.net) is a powerful, free online diagramming application that helps you create everything from simple flowcharts to complex network architectures and UML diagrams.\n\nWith seamless integration into Google Drive, OneDrive, and GitHub, plus smart auto-layout features, it is the go-to whiteboard and diagramming tool for professionals globally.",
+    category: "Diagrams & Flowcharts",
+    pricing: [
+      { plan: "Free", cost: "$0", description: "Free for standard online use" },
+      { plan: "Enterprise", cost: "Custom", description: "For Confluence and Jira integrations" }
+    ],
+    pros: [
+      "Completely free for basic use",
+      "Huge library of shapes and templates",
+      "Works offline and integrates with cloud storage"
+    ],
+    cons: [
+      "Can feel cluttered for beginners",
+      "Manual layout adjustments sometimes needed"
+    ],
+    websiteUrl: "https://app.diagrams.net",
+    rating: 4.8
+  },
+  {
+    id: "eraser-io",
+    name: "Eraser.io",
+    slug: "eraser-io",
+    seoTitle: "Eraser.io - AI Architecture Diagrams & Docs for Developers",
+    seoDescription: "Design cloud architectures and flowcharts in seconds with Eraser.io's AI copilot. The ultimate diagramming tool for engineering teams.",
+    keywords: ["Eraser.io", "AI architecture diagrams", "text to diagram AI", "engineering docs", "cloud architecture AI", "developer whiteboard"],
+    shortDescription: "AI-powered whiteboard and diagram tool for engineering teams.",
+    fullDescription: "Eraser.io combines a whiteboard, docs, and an AI copilot specifically designed for software engineering teams. You can generate complex cloud architectures, sequence diagrams, and flowcharts just by typing a prompt.\n\nIt bridges the gap between text-based documentation and visual diagramming, ensuring your system architecture is always up-to-date and visually appealing.",
+    category: "Diagrams & Flowcharts",
+    pricing: [
+      { plan: "Free", cost: "$0", description: "Basic diagrams and standard AI credits" },
+      { plan: "Professional", cost: "$10/mo", description: "Unlimited files and advanced AI capabilities" }
+    ],
+    pros: [
+      "AI-generated architecture diagrams",
+      "Markdown and text-to-diagram support",
+      "Tailored for software engineers"
+    ],
+    cons: [
+      "Limited features for non-technical users",
+      "AI usage is capped on the free plan"
+    ],
+    websiteUrl: "https://www.eraser.io",
+    rating: 4.8
+  },
+  {
+    id: "lucidchart-ai",
+    name: "Lucidchart",
+    slug: "lucidchart",
+    seoTitle: "Lucidchart AI - Intelligent Diagramming & Flowchart Maker",
+    seoDescription: "Collaborate in real-time and automate complex flowchart creation with Lucidchart's AI-enhanced intelligent diagramming tools.",
+    keywords: ["Lucidchart", "AI flowchart maker", "intelligent diagramming", "UML diagrams AI", "process mapping software"],
+    shortDescription: "Intelligent diagramming application for complex process mapping.",
+    fullDescription: "Lucidchart is an industry-leading visual workspace that combines diagramming, data visualization, and collaboration. With recent AI integrations, users can instantly summarize complex diagrams or generate starting templates based on text descriptions.\n\nIt is widely used by enterprise teams for process mapping, organizational charts, and system designs, integrating seamlessly with Google Workspace, Atlassian, and Microsoft.",
+    category: "Diagrams & Flowcharts",
+    pricing: [
+      { plan: "Free", cost: "$0", description: "3 editable documents and basic templates" },
+      { plan: "Individual", cost: "$7.95/mo", description: "Unlimited editable documents and premium shapes" }
+    ],
+    pros: [
+      "Industry-standard for enterprise diagramming",
+      "Excellent real-time collaboration",
+      "Deep integration with workplace apps"
+    ],
+    cons: [
+      "Free version is very restrictive",
+      "Can be overkill for simple quick diagrams"
+    ],
+    websiteUrl: "https://www.lucidchart.com",
+    rating: 4.7
+  },
+  {
+    id: "whimsical",
+    name: "Whimsical",
+    slug: "whimsical-ai",
+    seoTitle: "Whimsical AI - Fast Mind Maps, Wireframes & Flowcharts",
+    seoDescription: "Speed up your product design with Whimsical's AI-powered mind maps, wireframes, and flowcharts. The fastest visual workspace for teams.",
+    keywords: ["Whimsical AI", "AI mind maps", "AI wireframing", "rapid flowcharts", "product design diagrams"],
+    shortDescription: "Fast, AI-assisted wireframing and flowchart tool for product teams.",
+    fullDescription: "Whimsical is a unified visual workspace designed for speed. It allows product managers and designers to create flowcharts, wireframes, and mind maps at lightning speed. Their AI features help brainstorm ideas and auto-generate mind map branches instantly.\n\nWith a strict focus on a clean, opinionated design system, Whimsical ensures that every diagram you create looks beautiful without wasting time on styling.",
+    category: "Diagrams & Flowcharts",
+    pricing: [
+      { plan: "Starter", cost: "$0", description: "Unlimited members, up to 3 collaborative boards" },
+      { plan: "Pro", cost: "$10/mo", description: "Unlimited boards and advanced AI tools" }
+    ],
+    pros: [
+      "Incredibly fast and intuitive UI",
+      "Beautiful default styles",
+      "AI-assisted brainstorming for mind maps"
+    ],
+    cons: [
+      "Less flexible styling options than competitors",
+      "Limited advanced technical shapes (e.g., specific AWS icons)"
+    ],
+    websiteUrl: "https://whimsical.com",
+    rating: 4.8
+  },
+  {
+    id: "miro-assist",
+    name: "Miro",
+    slug: "miro-ai",
+    seoTitle: "Miro Assist - AI-Powered Visual Workspace & Diagram Generator",
+    seoDescription: "Use Miro Assist AI to instantly generate mind maps, process flowcharts, and sticky notes for remote team collaboration and planning.",
+    keywords: ["Miro Assist", "AI mind mapping", "visual collaboration AI", "diagram generator", "online whiteboard AI"],
+    shortDescription: "AI-powered visual workspace for brainstorming and diagramming.",
+    fullDescription: "Miro is a massive online whiteboard platform that recently introduced 'Miro Assist', an AI partner that helps you map out complex processes, cluster sticky notes by sentiment, and generate entire diagrams from a single prompt.\n\nIt is the ultimate tool for agile workflows, remote brainstorming sessions, and user journey mapping, bringing teams together on an infinite canvas.",
+    category: "Diagrams & Flowcharts",
+    pricing: [
+      { plan: "Free", cost: "$0", description: "Single workspace with 3 editable boards" },
+      { plan: "Starter", cost: "$8/mo", description: "Unlimited boards and custom templates" }
+    ],
+    pros: [
+      "Infinite canvas for massive projects",
+      "Powerful AI summarization and generation",
+      "Huge library of community templates"
+    ],
+    cons: [
+      "Can be resource-heavy on browsers",
+      "Steep learning curve for all features"
+    ],
+    websiteUrl: "https://miro.com",
+    rating: 4.7
+  },
+  {
+    id: "edrawmax-ai",
+    name: "EdrawMax",
+    slug: "edrawmax-ai",
+    seoTitle: "EdrawMax AI - Automated Diagram & Flowchart Generator",
+    seoDescription: "Create over 280 types of diagrams automatically with EdrawMax AI. Turn text into flowcharts, mind maps, and timelines effortlessly.",
+    keywords: ["EdrawMax AI", "automated diagrams", "AI flowchart generator", "smart diagramming", "Wondershare Edraw"],
+    shortDescription: "All-in-one diagram software with AI generation capabilities.",
+    fullDescription: "EdrawMax by Wondershare is an all-in-one diagramming tool that supports over 280 different types of diagrams. Its built-in AI assistant can instantly generate flowcharts, mind maps, lists, and tables directly from your text commands.\n\nWhether you need electrical schematics, floor plans, or software logic diagrams, EdrawMax provides professional-grade tools with the speed of AI automation.",
+    category: "Diagrams & Flowcharts",
+    pricing: [
+      { plan: "Free", cost: "$0", description: "Basic features with watermarks" },
+      { plan: "Subscription", cost: "$9.99/mo", description: "Full access to all templates and AI features" }
+    ],
+    pros: [
+      "Massive variety of diagram types",
+      "One-click AI diagram generation",
+      "Cross-platform support (Web, PC, Mobile)"
+    ],
+    cons: [
+      "Desktop app can be clunky",
+      "Free version exports with watermarks"
+    ],
+    websiteUrl: "https://www.edrawsoft.com/edraw-max/",
+    rating: 4.5
+  },
+  {
+    id: "gleek-io",
+    name: "Gleek.io",
+    slug: "gleek-io",
+    seoTitle: "Gleek.io - Text-to-Diagram Tool for Software Developers",
+    seoDescription: "Generate UML, entity-relationship, and sequence diagrams instantly using only your keyboard with Gleek.io's text-to-diagram tool.",
+    keywords: ["Gleek.io", "text to diagram", "developer flowchart tool", "UML from text", "keyboard only diagram"],
+    shortDescription: "Fast, keyboard-only text-to-diagram tool for developers.",
+    fullDescription: "Gleek.io is a text-to-diagram tool designed specifically for developers who prefer to keep their hands on the keyboard. By writing simple syntax, Gleek instantly renders UML, class, sequence, and entity-relationship diagrams.\n\nIt completely removes the need for drag-and-drop interfaces, allowing software architects to sketch out database models and object relations at the speed of thought.",
+    category: "Diagrams & Flowcharts",
+    pricing: [
+      { plan: "Free", cost: "$0", description: "Public diagrams and basic shapes" },
+      { plan: "Premium", cost: "$9.95/mo", description: "Private diagrams, full exports, and all shapes" }
+    ],
+    pros: [
+      "No mouse required, extremely fast",
+      "Great for database and UML modeling",
+      "Live rendering as you type"
+    ],
+    cons: [
+      "Requires learning Gleek syntax",
+      "Not suitable for non-technical visual designs"
+    ],
+    websiteUrl: "https://www.gleek.io",
+    rating: 4.6
+  },
+
+  // ==============================================
+  // 🎨 DESIGN & UI/UX (New Category)
+  // ==============================================
+  {
+    id: "uizard",
+    name: "Uizard",
+    slug: "uizard-ai",
+    seoTitle: "Uizard - AI UI/UX Design & Wireframing Tool",
+    seoDescription: "Design web and mobile apps in minutes. Turn hand-drawn sketches or text prompts into digital wireframes and UI designs instantly with Uizard AI.",
+    keywords: ["Uizard", "AI UI design", "text to UI", "AI wireframing tool", "app design AI", "sketch to design"],
+    shortDescription: "Turn sketches or text into UI designs and wireframes instantly.",
+    fullDescription: "Uizard is a rapid, AI-powered UI design tool used for designing wireframes, mockups, and prototypes in minutes. Its magical AI features allow you to scan hand-drawn sketches and convert them into digital screens, or generate complete app designs simply by typing a text prompt.\n\nIdeal for founders, product managers, and non-designers who want to visualize software ideas quickly without learning complex design tools.",
+    category: "Design & UI/UX",
+    pricing: [
+      { plan: "Free", cost: "$0", description: "Up to 3 projects and basic templates" },
+      { plan: "Pro", cost: "$12/mo", description: "Unlimited projects and full AI design features" }
+    ],
+    pros: [
+      "Incredibly fast UI prototyping",
+      "Converts sketches to digital screens",
+      "No prior design experience needed"
+    ],
+    cons: [
+      "Not as detailed as Figma for final production",
+      "AI outputs sometimes need manual adjustment"
+    ],
+    websiteUrl: "https://uizard.io",
+    rating: 4.7
+  },
+  {
+    id: "galileo-ai",
+    name: "Galileo AI",
+    slug: "galileo-ai",
+    seoTitle: "Galileo AI - Text-to-UI Platform for Interface Design",
+    seoDescription: "Generate editable UI designs from simple text descriptions. Galileo AI creates high-fidelity designs for web and mobile effortlessly.",
+    keywords: ["Galileo AI", "text to UI generator", "AI interface design", "Figma AI plugin", "UI mockup AI"],
+    shortDescription: "Generate high-fidelity UI designs from simple text descriptions.",
+    fullDescription: "Galileo AI acts as a copilot for interface design. By simply describing what you want (e.g., 'A settings page for a SaaS dashboard'), Galileo generates high-fidelity, editable UI screens populated with illustrations and copy.\n\nIt integrates seamlessly with Figma, allowing professional designers to speed up their workflow and skip the blank-canvas phase entirely.",
+    category: "Design & UI/UX",
+    pricing: [
+      { plan: "Standard", cost: "$19/mo", description: "Generates UI screens with export options" },
+      { plan: "Pro", cost: "$39/mo", description: "More generations and advanced Figma integration" }
+    ],
+    pros: [
+      "Direct Figma integration",
+      "Beautiful, modern design components",
+      "Saves hours of initial layout work"
+    ],
+    cons: [
+      "Paid tool only (no permanent free tier)",
+      "Best suited for standard UI patterns"
+    ],
+    websiteUrl: "https://www.usegalileo.ai",
+    rating: 4.8
+  },
+  {
+    id: "relume",
+    name: "Relume",
+    slug: "relume-library",
+    seoTitle: "Relume - AI Site Builder & Component Library for Webflow",
+    seoDescription: "Generate sitemaps, wireframes, and fully responsive Webflow components instantly using Relume's AI site builder.",
+    keywords: ["Relume AI", "Webflow AI builder", "Figma wireframe AI", "AI sitemap generator", "UI component library"],
+    shortDescription: "AI site builder that generates sitemaps and wireframes instantly.",
+    fullDescription: "Relume is a superpower for web designers. Its AI Site Builder allows you to generate comprehensive sitemaps and wireframes using a simple text prompt. Once generated, you can export these structures directly into Figma or Webflow.\n\nCoupled with the massive Relume Component Library, it drastically cuts down website development time for freelancers and agencies.",
+    category: "Design & UI/UX",
+    pricing: [
+      { plan: "Free", cost: "$0", description: "Access to free components and basic AI builder" },
+      { plan: "Starter", cost: "$32/mo", description: "Unlimited AI projects and full component library" }
+    ],
+    pros: [
+      "Perfect for Webflow developers",
+      "Generates logical, SEO-friendly sitemaps",
+      "Massive time saver for agencies"
+    ],
+    cons: [
+      "Premium pricing is slightly high for beginners",
+      "Highly tailored to Webflow and Figma ecosystems"
+    ],
+    websiteUrl: "https://www.relume.io",
+    rating: 4.9
+  },
+  {
+    id: "khroma",
+    name: "Khroma",
+    slug: "khroma-ai",
+    seoTitle: "Khroma - AI Color Palette Generator for Designers",
+    seoDescription: "Discover, search, and save infinite color combinations that you'll love. Khroma uses AI to learn your color preferences.",
+    keywords: ["Khroma AI", "AI color palette generator", "color scheme AI", "design color matching"],
+    shortDescription: "AI-powered color palette generator tailored to your taste.",
+    fullDescription: "Khroma uses artificial intelligence to learn which colors you like and creates limitless palettes for you to discover, search, and save. By choosing a set of initial colors, the AI trains an algorithm specific to your aesthetic.\n\nIt is an essential tool for graphic and web designers struggling to find the perfect color combinations, gradients, and typography contrast.",
+    category: "Design & UI/UX",
+    pricing: [
+      { plan: "Free", cost: "$0", description: "100% free to use" }
+    ],
+    pros: [
+      "Completely free",
+      "Learns your personal design aesthetic",
+      "Tests contrast on text and backgrounds"
+    ],
+    cons: [
+      "Initial training process takes a few minutes",
+      "Only focuses on colors, no UI elements"
+    ],
+    websiteUrl: "https://www.khroma.co",
+    rating: 4.6
+  },
+  {
+    id: "attention-insight",
+    name: "Attention Insight",
+    slug: "attention-insight",
+    seoTitle: "Attention Insight - AI Heatmaps & Design Testing",
+    seoDescription: "Test your website and app designs with AI-generated heatmaps. Predict where users will look before launching.",
+    keywords: ["Attention Insight", "AI heatmap generator", "UI testing AI", "attention prediction AI", "UX optimization"],
+    shortDescription: "Predict user attention with AI-generated heatmaps for designs.",
+    fullDescription: "Attention Insight uses AI models trained on eye-tracking data to generate instant heatmaps for your designs. It tells you exactly where users' eyes will go on a landing page, ad, or app screen before it goes live.\n\nMarketers and UX designers use it to optimize call-to-action buttons, improve conversion rates, and validate design choices objectively.",
+    category: "Design & UI/UX",
+    pricing: [
+      { plan: "Free Trial", cost: "$0", description: "Limited free analyses" },
+      { plan: "Solo", cost: "$21/mo", description: "Full access to heatmaps and Figma plugin" }
+    ],
+    pros: [
+      "Data-driven design validation",
+      "Works as a Figma and Adobe XD plugin",
+      "Improves conversion rates without live A/B testing"
+    ],
+    cons: [
+      "Predictive, so it doesn't replace real user testing entirely",
+      "Paid plans required for continuous use"
+    ],
+    websiteUrl: "https://attentioninsight.com",
+    rating: 4.7
+  },
+  {
+    id: "fontjoy",
+    name: "Fontjoy",
+    slug: "fontjoy",
+    seoTitle: "Fontjoy - Generate AI Font Pairings Instantly",
+    seoDescription: "Find the perfect typography combinations with Fontjoy. An AI-powered font pairing tool for web designers and developers.",
+    keywords: ["Fontjoy", "AI font pairing", "typography AI", "font generator", "design typography tool"],
+    shortDescription: "AI tool for discovering beautiful font combinations.",
+    fullDescription: "Fontjoy uses machine learning to generate balanced and visually appealing font pairings. You can lock in a font you like and let the AI suggest complementary header, subheader, and body text fonts.\n\nIt connects directly with Google Fonts, making it incredibly easy for web developers and designers to implement the typography directly into their projects.",
+    category: "Design & UI/UX",
+    pricing: [
+      { plan: "Free", cost: "$0", description: "Completely free open-source tool" }
+    ],
+    pros: [
+      "Simple, one-click interface",
+      "Uses the Google Fonts library",
+      "100% free"
+    ],
+    cons: [
+      "Limited to Google Fonts only",
+      "No complex typography rule settings"
+    ],
+    websiteUrl: "https://fontjoy.com",
+    rating: 4.5
+  },
+  {
+    id: "magician-design",
+    name: "Magician",
+    slug: "magician-figma",
+    seoTitle: "Magician - AI Design Plugin for Figma",
+    seoDescription: "Design with the power of AI inside Figma. Generate icons, copywriting, and images directly in your workspace with Magician.",
+    keywords: ["Magician AI", "Figma AI plugin", "AI icon generator", "Figma copywriting AI"],
+    shortDescription: "A magical AI design plugin built directly for Figma.",
+    fullDescription: "Magician is a popular Figma plugin created by Diagram that brings AI right into your design workspace. With it, you can generate vector icons from text, write UI copy automatically, and generate placeholder images without leaving Figma.\n\nIt streamlines the UI design process by handling the tedious tasks, allowing designers to focus on structure and creativity.",
+    category: "Design & UI/UX",
+    pricing: [
+      { plan: "Subscription", cost: "$9/mo", description: "Unlimited access to all AI features in Figma" }
+    ],
+    pros: [
+      "Works directly inside Figma",
+      "Generates editable vector icons",
+      "Great for UI copywriting"
+    ],
+    cons: [
+      "Requires a paid subscription",
+      "Icon styles can sometimes be inconsistent"
+    ],
+    websiteUrl: "https://magician.design",
+    rating: 4.6
+  },
+
+  // ==============================================
+  // 🎓 EDUCATION & LEARNING (New Category)
+  // ==============================================
+  {
+    id: "quizgecko",
+    name: "Quizgecko",
+    slug: "quizgecko",
+    seoTitle: "Quizgecko - AI Quiz Generator & Flashcard Maker",
+    seoDescription: "Turn any text, URL, or document into an interactive quiz or flashcards instantly using Quizgecko's AI platform.",
+    keywords: ["Quizgecko", "AI quiz generator", "text to quiz AI", "AI flashcard maker", "teacher AI tool"],
+    shortDescription: "Generate quizzes, flashcards, and notes from any text instantly.",
+    fullDescription: "Quizgecko is a powerful AI learning tool that transforms any text, document, YouTube video, or webpage into high-quality quizzes, flashcards, and study notes. It generates multiple-choice, true/false, and short-answer questions automatically.\n\nIt is highly valuable for teachers creating assessments, businesses conducting training, and students preparing for exams.",
+    category: "Education & Learning",
+    pricing: [
+      { plan: "Basic", cost: "$18/mo", description: "AI quiz generation for students" },
+      { plan: "Educator", cost: "$49/mo", description: "Advanced exports and LMS integration" }
+    ],
+    pros: [
+      "Supports multiple file types (PDF, Docs, URLs)",
+      "Exports to Canvas, Moodle, and Kahoot",
+      "Huge time saver for educators"
+    ],
+    cons: [
+      "No permanent free tier available",
+      "Complex technical topics sometimes generate easy questions"
+    ],
+    websiteUrl: "https://quizgecko.com",
+    rating: 4.7
+  },
+  {
+    id: "socratic",
+    name: "Socratic by Google",
+    slug: "socratic-ai",
+    seoTitle: "Socratic AI - Homework Helper & Learning App",
+    seoDescription: "Stuck on homework? Socratic by Google uses AI to help you understand math, science, and history with step-by-step explanations.",
+    keywords: ["Socratic AI", "AI homework helper", "math solver AI", "Google learning AI", "student AI app"],
+    shortDescription: "Google's AI-powered app that helps students with their homework.",
+    fullDescription: "Socratic, powered by Google AI, helps high school and university students understand their school work. By taking a photo of a complex math equation or science question, the AI analyzes it and provides step-by-step solutions, video explainers, and key concepts.\n\nIt acts as a personal pocket tutor that doesn't just give the answer, but explains the methodology behind it.",
+    category: "Education & Learning",
+    pricing: [
+      { plan: "Free", cost: "$0", description: "100% free mobile application" }
+    ],
+    pros: [
+      "Completely free to use",
+      "Excellent optical character recognition (OCR)",
+      "Provides detailed explanations, not just answers"
+    ],
+    cons: [
+      "Mobile app only (no web version)",
+      "Can struggle with very advanced university-level topics"
+    ],
+    websiteUrl: "https://socratic.org",
+    rating: 4.8
+  },
+  {
+    id: "tutor-ai",
+    name: "TutorAI",
+    slug: "tutor-ai",
+    seoTitle: "TutorAI - Learn Anything With Personalized AI Courses",
+    seoDescription: "Enter any topic and TutorAI will generate a customized, interactive learning module just for you. The future of personalized education.",
+    keywords: ["TutorAI", "AI course generator", "personalized learning AI", "learn anything AI", "AI tutor"],
+    shortDescription: "Create a personalized mini-course on any topic instantly.",
+    fullDescription: "TutorAI is a learning platform that allows you to type in any topic (e.g., 'Quantum Physics' or 'History of Rome'), and it instantly generates a structured, multi-module course. It breaks down complex subjects into digestible lessons and quizzes.\n\nIt empowers self-taught learners to grasp new concepts quickly without searching through fragmented YouTube videos or lengthy articles.",
+    category: "Education & Learning",
+    pricing: [
+      { plan: "Free", cost: "$0", description: "Generate basic courses" },
+      { plan: "Premium", cost: "$10/mo", description: "In-depth courses and advanced AI explanations" }
+    ],
+    pros: [
+      "Learn virtually any topic on demand",
+      "Bite-sized, easy-to-read lessons",
+      "Interactive knowledge checks"
+    ],
+    cons: [
+      "Deeply specialized knowledge might lack depth",
+      "User interface is very basic"
+    ],
+    websiteUrl: "https://www.tutorai.me",
+    rating: 4.6
+  },
+  {
+    id: "yippity",
+    name: "Yippity",
+    slug: "yippity",
+    seoTitle: "Yippity - AI Flashcard Generator from Text",
+    seoDescription: "Copy and paste your notes into Yippity and automatically generate flashcards and quizzes for studying in seconds.",
+    keywords: ["Yippity AI", "AI flashcards", "text to flashcard generator", "study AI tool", "Anki AI integration"],
+    shortDescription: "Turn any text or website into flashcards automatically.",
+    fullDescription: "Yippity is a streamlined study tool for students. Simply paste your lecture notes or provide a website URL, and the AI will extract the key information to create a deck of flashcards and questions.\n\nIt is specifically designed for quick exam prep and rote memorization, allowing users to export the generated decks directly to study apps like Anki or Quizlet.",
+    category: "Education & Learning",
+    pricing: [
+      { plan: "Free", cost: "$0", description: "3 free generations per month" },
+      { plan: "Pro", cost: "$4.99/mo", description: "Unlimited flashcard generation" }
+    ],
+    pros: [
+      "Very affordable pro plan",
+      "Quick and easy to use",
+      "Exports directly to popular study apps"
+    ],
+    cons: [
+      "Limited features compared to full LMS platforms",
+      "Free tier is highly restricted"
+    ],
+    websiteUrl: "https://yippity.io",
+    rating: 4.5
+  },
+  {
+    id: "khanmigo",
+    name: "Khanmigo",
+    slug: "khanmigo",
+    seoTitle: "Khanmigo - AI Tutor & Teaching Assistant by Khan Academy",
+    seoDescription: "Khanmigo is an AI-powered tutor that guides students through math, science, and coding, and acts as an assistant for teachers.",
+    keywords: ["Khanmigo", "Khan Academy AI", "AI tutor for math", "teaching assistant AI", "safe AI for kids"],
+    shortDescription: "An AI tutor and teaching assistant developed by Khan Academy.",
+    fullDescription: "Developed by the renowned Khan Academy, Khanmigo is a deeply educational AI tutor. Unlike standard chatbots that just give answers, Khanmigo uses the Socratic method to guide students to find the answers themselves.\n\nIt is heavily guardrailed for safety, making it the perfect tool for K-12 students. For teachers, it acts as an assistant to draft lesson plans and grade rubrics.",
+    category: "Education & Learning",
+    pricing: [
+      { plan: "Subscription", cost: "$4/mo", description: "Full access to the AI tutor platform" }
+    ],
+    pros: [
+      "Does not cheat; focuses on true learning",
+      "Extremely safe for young students",
+      "World-class educational pedagogy"
+    ],
+    cons: [
+      "Only available in certain regions currently",
+      "Requires integration with Khan Academy curriculum"
+    ],
+    websiteUrl: "https://www.khanacademy.org/khan-labs",
+    rating: 4.9
+  },
+  {
+    id: "mindsmith",
+    name: "Mindsmith",
+    slug: "mindsmith-ai",
+    seoTitle: "Mindsmith - AI eLearning Course Creator",
+    seoDescription: "Create interactive SCORM-compliant eLearning courses in minutes with Mindsmith's generative AI course authoring tool.",
+    keywords: ["Mindsmith", "AI course authoring", "eLearning AI", "SCORM course generator", "corporate training AI"],
+    shortDescription: "AI-powered authoring tool to create shareable eLearning courses.",
+    fullDescription: "Mindsmith is a generative AI authoring tool designed for instructional designers and HR professionals. It allows you to generate comprehensive corporate training modules and educational courses simply by uploading source documents or typing a prompt.\n\nThe platform supports SCORM exports, meaning the AI-generated courses can be seamlessly uploaded into almost any corporate Learning Management System (LMS).",
+    category: "Education & Learning",
+    pricing: [
+      { plan: "Free", cost: "$0", description: "Basic course creation with watermarks" },
+      { plan: "Pro", cost: "$39/mo", description: "Unlimited AI courses and SCORM exports" }
+    ],
+    pros: [
+      "SCORM compliance is a game-changer for HR",
+      "Fast, intuitive course builder",
+      "Maintains consistent brand styling"
+    ],
+    cons: [
+      "Geared more towards corporate than academic",
+      "Pricing is aimed at professionals"
+    ],
+    websiteUrl: "https://www.mindsmith.ai",
+    rating: 4.7
+  },
+  {
+    id: "summarize-tech",
+    name: "Summarize.tech",
+    slug: "summarize-tech",
+    seoTitle: "Summarize.tech - AI YouTube Video Summarizer",
+    seoDescription: "Get AI-generated summaries of long YouTube videos, lectures, and podcasts instantly with Summarize.tech. Save hours of watching time.",
+    keywords: ["Summarize.tech", "YouTube summarizer AI", "video to text summary", "lecture summary AI"],
+    shortDescription: "Instantly summarize long YouTube videos and lectures.",
+    fullDescription: "Summarize.tech uses AI to break down long YouTube videos, such as university lectures, town halls, or podcast episodes, into easy-to-read text summaries. It provides timestamps with key takeaways for different sections of the video.\n\nStudents and researchers use this tool to quickly determine if a 2-hour lecture contains the specific information they need without watching the whole thing.",
+    category: "Education & Learning",
+    pricing: [
+      { plan: "Free", cost: "$0", description: "Free daily limit on summaries" },
+      { plan: "Premium", cost: "$10/mo", description: "Up to 200 daily video summaries" }
+    ],
+    pros: [
+      "Saves hours of viewing time",
+      "Provides clickable timestamps",
+      "Works on almost any public YouTube video"
+    ],
+    cons: [
+      "Video must have closed captions/subtitles enabled",
+      "Struggles with very highly technical jargon occasionally"
+    ],
+    websiteUrl: "https://www.summarize.tech",
+    rating: 4.6
+  },
+
+  // ==============================================
+  // 🤖 CUSTOMER SUPPORT & CHATBOTS (New Category)
+  // ==============================================
+  {
+    id: "chatbase",
+    name: "Chatbase",
+    slug: "chatbase",
+    seoTitle: "Chatbase - Build a Custom AI Chatbot Trained on Your Data",
+    seoDescription: "Create a custom ChatGPT-like bot for your website. Train it on your PDFs, website links, and docs to provide instant customer support.",
+    keywords: ["Chatbase", "custom AI chatbot", "train AI on PDF", "website support bot", "ChatGPT for business"],
+    shortDescription: "Build a custom GPT chatbot trained on your own data.",
+    fullDescription: "Chatbase is a wildly popular platform that allows anyone to build a custom AI chatbot in minutes. You simply upload your business documents, PDFs, or paste your website URL, and the AI learns everything about your business.\n\nYou can then embed this smart chatbot as a widget on your website to handle customer inquiries, act as a lead generation tool, or serve as an internal knowledge base.",
+    category: "Customer Support & Chatbots",
+    pricing: [
+      { plan: "Free", cost: "$0", description: "1 chatbot, 20 messages/month" },
+      { plan: "Hobby", cost: "$19/mo", description: "2 chatbots, 2000 messages/month" }
+    ],
+    pros: [
+      "Incredibly easy setup process",
+      "Embeds easily into any website",
+      "Supports over 90 languages"
+    ],
+    cons: [
+      "Message limits can be eaten up quickly on busy sites",
+      "Requires careful prompt engineering to avoid hallucinations"
+    ],
+    websiteUrl: "https://www.chatbase.co",
+    rating: 4.8
+  },
+  {
+    id: "fin-intercom",
+    name: "Fin by Intercom",
+    slug: "fin-ai",
+    seoTitle: "Fin AI - Intercom's Breakthrough AI Customer Service Bot",
+    seoDescription: "Resolve customer issues instantly with Fin. An AI bot by Intercom that uses your support articles to answer complex questions.",
+    keywords: ["Fin AI", "Intercom AI chatbot", "customer service AI", "AI help desk", "automated support"],
+    shortDescription: "Intercom's enterprise-grade AI customer service bot.",
+    fullDescription: "Fin is Intercom's advanced AI chatbot built specifically for customer support teams. Powered by OpenAI's technology, Fin ingests your existing help center articles and provides accurate, conversational answers to your customers.\n\nIt drastically reduces ticket volume by resolving routine questions instantly, seamlessly handing off complex issues to human agents when necessary.",
+    category: "Customer Support & Chatbots",
+    pricing: [
+      { plan: "Usage Based", cost: "$0.99/resolution", description: "You only pay when Fin successfully resolves a ticket" }
+    ],
+    pros: [
+      "Incredible enterprise-grade accuracy",
+      "Zero-hallucination guardrails",
+      "Flawless handoff to human agents"
+    ],
+    cons: [
+      "Requires an existing Intercom subscription",
+      "Resolution pricing can be expensive for high-volume B2C"
+    ],
+    websiteUrl: "https://www.intercom.com/fin",
+    rating: 4.9
+  },
+  {
+    id: "sitegpt",
+    name: "SiteGPT",
+    slug: "sitegpt",
+    seoTitle: "SiteGPT - Instantly Create an AI Support Agent for Your Website",
+    seoDescription: "Make your website smarter. Train a custom AI chatbot using your website URL to answer visitor questions 24/7.",
+    keywords: ["SiteGPT", "website AI assistant", "URL to chatbot", "AI customer support", "ecommerce AI bot"],
+    shortDescription: "Train an AI chatbot on your website content with one click.",
+    fullDescription: "SiteGPT simplifies the process of creating a customer support chatbot. Instead of uploading documents manually, you just enter your website's URL. The AI scrapes your sitemap, reads your content, and creates a bot ready to answer any question a visitor might have.\n\nIt is perfect for SaaS startups, e-commerce stores, and blogs looking to provide instant 24/7 support without hiring a massive team.",
+    category: "Customer Support & Chatbots",
+    pricing: [
+      { plan: "Essential", cost: "$19/mo", description: "1 chatbot, 1000 messages/month" },
+      { plan: "Growth", cost: "$49/mo", description: "Removes branding, 5000 messages/month" }
+    ],
+    pros: [
+      "Zero technical skills required",
+      "Auto-syncs when your website updates",
+      "Clean, customizable widget UI"
+    ],
+    cons: [
+      "No permanent free plan",
+      "Relies entirely on the quality of your website copy"
+    ],
+    websiteUrl: "https://sitegpt.ai",
+    rating: 4.7
+  },
+  {
+    id: "dante-ai",
+    name: "Dante AI",
+    slug: "dante-ai",
+    seoTitle: "Dante AI - Custom AI Chatbots with Voice & Video Integrations",
+    seoDescription: "Build powerful AI chatbots trained on your data. Dante AI offers voice interaction, deep integrations, and custom logic.",
+    keywords: ["Dante AI", "voice AI chatbot", "trainable GPT bot", "AI workflow automation"],
+    shortDescription: "Create versatile AI chatbots with voice and workflow integrations.",
+    fullDescription: "Dante AI goes beyond simple text-based chatbots by offering voice interactions and deep integration with platforms like Zapier. You can train the bot on various file types and even videos. \n\nIt allows businesses to build dynamic AI agents that can trigger workflows (like booking a meeting or sending an email) based on the user's conversation.",
+    category: "Customer Support & Chatbots",
+    pricing: [
+      { plan: "Free", cost: "$0", description: "Basic chatbot testing" },
+      { plan: "Entry", cost: "$9.99/mo", description: "Advanced integrations and API access" }
+    ],
+    pros: [
+      "Supports voice inputs and outputs",
+      "Powerful Zapier integrations",
+      "Multiple AI model choices (GPT-4, Claude, etc.)"
+    ],
+    cons: [
+      "Dashboard can feel overwhelming due to many features",
+      "Advanced workflows require technical logic"
+    ],
+    websiteUrl: "https://dante-ai.com",
+    rating: 4.8
+  },
+  {
+    id: "tidio-lyro",
+    name: "Lyro by Tidio",
+    slug: "tidio-lyro",
+    seoTitle: "Lyro AI - Customer Service Chatbot by Tidio for E-commerce",
+    seoDescription: "Automate your e-commerce customer support with Lyro. An AI chatbot that handles FAQs, order tracking, and sales.",
+    keywords: ["Lyro AI", "Tidio chatbot", "e-commerce AI bot", "Shopify AI chatbot", "automate customer service"],
+    shortDescription: "Conversational AI built specifically for small to medium e-commerce.",
+    fullDescription: "Lyro is an AI chatbot developed by Tidio, explicitly tailored for e-commerce platforms like Shopify and WooCommerce. It automatically answers up to 70% of common customer questions, such as shipping policies, return processes, and product details.\n\nLyro is designed to boost sales by providing instant responses and keeping potential buyers engaged during their shopping experience.",
+    category: "Customer Support & Chatbots",
+    pricing: [
+      { plan: "Free", cost: "$0", description: "Up to 50 AI-driven conversations" },
+      { plan: "Lyro AI", cost: "$39/mo", description: "Expanded conversation limits and analytics" }
+    ],
+    pros: [
+      "Perfect integration with Shopify/WooCommerce",
+      "Handles order-tracking queries automatically",
+      "Excellent live-chat fallback system"
+    ],
+    cons: [
+      "Focused heavily on retail, less on SaaS",
+      "Can get pricey for stores with high traffic"
+    ],
+    websiteUrl: "https://www.tidio.com/lyro/",
+    rating: 4.7
+  },
+  {
+    id: "liveperson",
+    name: "LivePerson",
+    slug: "liveperson",
+    seoTitle: "LivePerson - Enterprise Conversational AI & Messaging",
+    seoDescription: "Scale your customer service operations globally with LivePerson's enterprise-grade conversational AI platform.",
+    keywords: ["LivePerson", "enterprise AI chatbot", "conversational cloud", "omnichannel AI support"],
+    shortDescription: "Heavy-duty enterprise platform for omnichannel conversational AI.",
+    fullDescription: "LivePerson is a titan in the conversational AI space, designed for large enterprises and global brands. Its Conversational Cloud platform allows companies to deploy highly sophisticated AI agents across WhatsApp, SMS, Apple Business Chat, and web.\n\nIt focuses on intent recognition, deep analytics, and massive scalability, handling millions of customer interactions securely.",
+    category: "Customer Support & Chatbots",
+    pricing: [
+      { plan: "Enterprise", cost: "Custom", description: "Tailored pricing based on interaction volume and integrations" }
+    ],
+    pros: [
+      "True omnichannel support (SMS, WhatsApp, Social)",
+      "Bank-grade security and compliance",
+      "Deep analytics and intent tracking"
+    ],
+    cons: [
+      "Too complex and expensive for small businesses",
+      "Requires a dedicated team to set up and manage"
+    ],
+    websiteUrl: "https://www.liveperson.com",
+    rating: 4.5
+  },
+  {
+    id: "botsonic",
+    name: "Botsonic",
+    slug: "botsonic",
+    seoTitle: "Botsonic - No-Code AI Chatbot Builder by Writesonic",
+    seoDescription: "Build hyper-intelligent, brand-personalized AI chatbots with no coding required using Botsonic.",
+    keywords: ["Botsonic", "Writesonic AI bot", "no code chatbot", "brand personalized AI"],
+    shortDescription: "No-code, highly customizable AI chatbot builder for websites.",
+    fullDescription: "Created by the team behind Writesonic, Botsonic is a powerful no-code chatbot builder. It focuses heavily on brand personalization, allowing you to customize the bot's tone, colors, and behavior to perfectly match your brand identity.\n\nIt ingests your knowledge base and provides seamless, ChatGPT-like interactions tailored to your specific business rules.",
+    category: "Customer Support & Chatbots",
+    pricing: [
+      { plan: "Free", cost: "$0", description: "100 messages/month for testing" },
+      { plan: "Starter", cost: "$49/mo", description: "2000 messages and advanced branding" }
+    ],
+    pros: [
+      "Excellent UI customization options",
+      "Powered by the latest GPT models",
+      "Built-in seamless human handoff"
+    ],
+    cons: [
+      "Starting price is higher than some competitors",
+      "Dashboard can be laggy with large document uploads"
+    ],
+    websiteUrl: "https://writesonic.com/botsonic",
+    rating: 4.6
+  }
 ];
