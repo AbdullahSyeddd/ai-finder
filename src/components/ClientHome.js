@@ -83,7 +83,7 @@ export default function ClientHome() {
 
         <div className="inline-flex items-center gap-2 border border-white/10 bg-white/5 px-3 py-1 rounded-full text-[10px] md:text-xs font-medium text-gray-300 mb-6 backdrop-blur-md">
           <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
-          Directly linking 100+ AI solutions
+          Directly linking 1000+ AI solutions
         </div>
 
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tighter text-white mb-4 md:mb-6 leading-[1.1]">
