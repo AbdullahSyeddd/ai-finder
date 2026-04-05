@@ -4,7 +4,7 @@ import Script from "next/script";
 import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import CookieBanner from "../components/CookieBanner";
+//import CookieBanner from "../components/CookieBanner"; 
 import ExitIntentPopup from "../components/ExitIntentPopup"; // ✅ Exit-Intent Import kiya gaya hai
 
 const inter = Inter({ 
@@ -87,7 +87,6 @@ export default function RootLayout({ children }) {
         {/* Padding-top added to ensure content doesn't hide under fixed Navbar */}
         <main className="relative z-10 pt-10">{children}</main>
         <Footer />
-        <CookieBanner /> 
       </body>
     </html>
   );
