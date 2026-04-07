@@ -26,7 +26,7 @@ export const metadata = {
   applicationName: "AI Finder",
 
   alternates: {
-    canonical: "./",
+    canonical: "https://aiifinder.com",
   },
 
   openGraph: {

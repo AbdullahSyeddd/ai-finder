@@ -29,7 +29,7 @@ export const metadata = {
       "Find the best AI tools tailored to your workflow. Fast, smart, and personalized.",
   },
   alternates: {
-    canonical: "/stack",
+    canonical: "https://aiifinder.com/stack",
   },
 };
 
