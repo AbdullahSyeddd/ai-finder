@@ -49,7 +49,7 @@ export const metadata = {
     google: "stHlXSSxczJ6p8U6fUq-Uw0OqNCwtSXW9iXTR0fKOx4",
   },
   other: {
-    "google-adsense-account": "ca-pub-7030450255703115"
+    "google-adsense-account": "ca-pub-7525826214094842"
   }
 };
 
@@ -71,12 +71,14 @@ export default function RootLayout({ children }) {
             gtag('config', 'G-0TH0R2E8D1');
           `}
         </Script>
+
+        {/* Google AdSense */}
         <Script 
-            id="google-adsense-script"
-            async 
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7030450255703115"
-            crossOrigin="anonymous"
-            strategy="afterInteractive"
+          id="google-adsense-script"
+          async 
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7525826214094842"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
         />
 
         <Navbar />
